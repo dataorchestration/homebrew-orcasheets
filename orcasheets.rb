@@ -1,4 +1,4 @@
-class OrcaSheets < Formula
+class orcasheets < Formula
   desc "World's Fastest Analytics Engine on your Mac"
   homepage "https://orcasheets.io"
 
@@ -13,17 +13,17 @@ class OrcaSheets < Formula
   version "0.0.1"
 
   def install
-    libexec.install "OrcaSheets.app"
-    bin.write_exec_script "#{libexec}/OrcaSheets.app/Contents/MacOS/orcasheets"
+    libexec.install "orcasheets.app"
+    bin.write_exec_script "#{libexec}/orcasheets.app/Contents/MacOS/orcasheets"
   end
 
   def caveats
     <<~EOS
-      OrcaSheets.app was installed to:
-        #{opt_libexec}/OrcaSheets.app
+      orcasheets.app was installed to:
+        #{opt_libexec}/orcasheets.app
 
       You can run it using the command:
-        OrcaSheets
+        orcasheets
     EOS
   end
 
