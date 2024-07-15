@@ -1,4 +1,4 @@
-class orcasheets < Formula
+class OrcaSheets < Formula
   desc "World's Fastest Analytics Engine on your Mac"
   homepage "https://orcasheets.io"
 
@@ -23,7 +23,7 @@ class orcasheets < Formula
         #{opt_libexec}/OrcaSheets.app
 
       You can run it using the command:
-        orcasheets
+        OrcaSheets
     EOS
   end
 
