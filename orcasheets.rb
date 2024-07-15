@@ -12,8 +12,6 @@ class Orcasheets < Formula
   end
 
   def install
-    # print the current directory
-    puts Dir.pwd
     # Since orcasheets.app is at the root of the tarball, install it directly
     prefix.install Dir["orcasheets.app"]
   end
