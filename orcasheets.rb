@@ -1,32 +1,30 @@
 class Orcasheets < Formula
   desc "World's Fastest Analytics Engine on your Mac"
   homepage "https://orcasheets.io"
+  version "0.0.2"
 
   if Hardware::CPU.intel?
-    url "https://github.com/yourusername/yourapp/releases/download/v1.0.0/orcasheets-intel.tar.gz"
-    sha256 "your_intel_sha256_checksum"
+    url "https://github.com/dataorchestration/homebrew-orcasheets/releases/download/v0.0.2/orcasheets-intel.tar.gz"
+    sha256 "<INTEL_SHA256_CHECKSUM>"
   elsif Hardware::CPU.arm?
     url "https://github.com/dataorchestration/homebrew-orcasheets/releases/download/v0.0.2/orcasheets-arm.tar.gz"
     sha256 "9218cba4d78941ed7ae1f39a824384ee5d8730a64f0e344d1e46bfbba2b2e6a9"
   end
 
-  version "0.0.2"
-
   def install
+    # Since orcasheets.app is at the root of the tarball, install it directly
     prefix.install "orcasheets.app"
   end
 
   def caveats
     <<~EOS
-      orcasheets.app was installed to:
-        #{opt_libexec}/orcasheets.app
-
-      You can run it using the command:
-        orcasheets
+      Orcasheets.app has been installed in:
+        #{opt_prefix}/orcasheets.app
+      You may want to move it to /Applications.
     EOS
   end
 
   test do
-    system "false"
+    assert_predicate prefix/"orcasheets.app", :exist?, "orcasheets.app must exist"
   end
 end
