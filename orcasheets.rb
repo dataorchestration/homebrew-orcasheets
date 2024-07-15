@@ -1,4 +1,4 @@
-class OrcaSheets < Formula
+class orcasheets < Formula
   desc "World's Fastest Analytics Engine on your Mac"
   homepage "https://orcasheets.io"
 
