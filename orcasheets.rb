@@ -13,8 +13,7 @@ class Orcasheets < Formula
   version "0.0.2"
 
   def install
-    libexec.install "orcasheets.app"
-    bin.write_exec_script "#{libexec}/orcasheets.app/Contents/MacOS/orcasheets"
+    prefix.install "orcasheets.app"
   end
 
   def caveats
