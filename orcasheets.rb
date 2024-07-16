@@ -1,30 +1,16 @@
-class Orcasheets < Formula
+cask "orcasheets" do
+  arch arm: "aarch64", intel: "x64"
+
+  version "2024.7.14"
+  sha256 arm:   "8303002f21e1c09c1c54b1af86bc036e42f8df508271bf7a99fac260e9e0d770",
+         intel: "91157027ffe8164866fd2a09f3784cfe3b1414ce1537d4536c9a4cf6a17937ed"
+
+  url "https://github.com/dataorchestration/homebrew-orcasheets/releases/download/#{version}/orcasheets_#{version}_#{arch}.dmg",
+      verified: "github.com/dataorchestration/orcasheets/"
+  name "OrcaSheets"
   desc "World's Fastest Analytics Engine on your Mac"
   homepage "https://orcasheets.io"
-  version "0.0.2"
 
-  if Hardware::CPU.intel?
-    url "https://github.com/dataorchestration/homebrew-orcasheets/releases/download/v0.0.2/orcasheets-intel.tar.gz"
-    sha256 "0ca09c9ebf32931f476440b0c56d94e5cfc718fae99566ccdce7bd5df1b713f1"
-  elsif Hardware::CPU.arm?
-    url "https://github.com/dataorchestration/homebrew-orcasheets/releases/download/v0.0.2/orcasheets-arm.tar.gz"
-    sha256 "9218cba4d78941ed7ae1f39a824384ee5d8730a64f0e344d1e46bfbba2b2e6a9"
-  end
+  app "OrcaSheets.app"
 
-  def install
-    # Since orcasheets.app is at the root of the tarball, install it directly
-    prefix.install Dir["orcasheets.app"]
-  end
-
-  def caveats
-    <<~EOS
-      Orcasheets.app has been installed in:
-        #{opt_prefix}/orcasheets.app
-      You may want to move it to /Applications.
-    EOS
-  end
-
-  test do
-    assert_predicate prefix/"orcasheets.app", :exist?, "orcasheets.app must exist"
-  end
 end
