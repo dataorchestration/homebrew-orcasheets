@@ -1,7 +1,7 @@
 cask "orcasheets" do
   arch arm: "aarch64", intel: "x64"
 
-  version "2024.7.14"
+  version "2024.7.16"
   sha256 arm:   "5f7c7d18ee5fa7cdcb006e0a0d3bd94cb153f6996a63990f5a25842d0a4e56b7",
          intel: "91157027ffe8164866fd2a09f3784cfe3b1414ce1537d4536c9a4cf6a17937ed"
 
