@@ -14,4 +14,5 @@ cask "orcasheets" do
   app "OrcaSheets.app"
 
   zap trash: "~/Library/Application Support/OrcaSheets"
+
 end
