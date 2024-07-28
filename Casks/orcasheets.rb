@@ -6,7 +6,7 @@ cask "orcasheets" do
          intel: "2f039bae1d64095011acf57fcb176576ee21a98c73242edfdca4546fcfc438da"
 
   url "https://github.com/dataorchestration/homebrew-orcasheets/releases/download/#{version}/orcasheets_#{version}_#{arch}.dmg",
-      verified: "github.com/dataorchestration/orcasheets/"
+      verified: "github.com/dataorchestration/homebrew-orcasheets/"
   name "OrcaSheets"
   desc "World's Fastest Analytics Engine on your Mac"
   homepage "https://orcasheets.io"
