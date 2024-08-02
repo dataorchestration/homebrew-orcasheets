@@ -9,7 +9,7 @@ cask "orcasheets" do
       verified: "github.com/dataorchestration/homebrew-orcasheets/"
   name "OrcaSheets"
   desc "World's Fastest Analytics Engine on your PC"
-  homepage "https://orcasheets.io/"
+  homepage "https://orcasheets.ai/"
 
   app "OrcaSheets.app"
 
