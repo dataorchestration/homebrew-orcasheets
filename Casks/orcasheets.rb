@@ -1,9 +1,9 @@
 cask "orcasheets" do
   arch arm: "arm64", intel: "x86_64"
 
-  version "2024.7.28"
-  sha256 arm:   "5b0e0bf4a82a1d266e5520dee35a02f72ce55d975bf14f711eaa8d9e3c5e5278",
-         intel: "f2303b2875bd7a357b8265696e0589ab70bf3eac1294baed4c58c3a41146ef4f"
+  version "2024.8.1"
+  sha256 arm:   "efa253f015d861fc532ba01df26610f4f0761fca81d384bbf356903ad3c2dba3",
+         intel: "5aa84106029cd75069b95033c1207f862acbcf06541c8a4d73f18658a442b415"
 
   url "https://github.com/dataorchestration/homebrew-orcasheets/releases/download/#{version}/orcasheets_#{version}_#{arch}.dmg",
       verified: "github.com/dataorchestration/homebrew-orcasheets/"
