@@ -10,7 +10,7 @@ cask "orcasheets" do
 
   name "OrcaSheets"
   desc "World's Fastest Analytics Engine on your PC"
-  homepage "https://orcasheets.ai/"
+  homepage "https://orcasheets.io/"
 
   depends_on macos: ">= :big_sur"
 
