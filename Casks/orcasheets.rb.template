@@ -1,0 +1,18 @@
+cask "orcasheets" do
+  arch arm: "arm64", intel: "x86_64"
+
+  version "VERSION_NUMBER"
+  sha256 arm:   "ARM_SHA256",
+         intel: "INTEL_SHA256"
+
+  url "https://github.com/dataorchestration/homebrew-orcasheets/releases/download/#{version}/orcasheets_#{version}_#{arch}.dmg",
+      verified: "github.com/dataorchestration/homebrew-orcasheets/"
+  name "OrcaSheets"
+  desc "World's Fastest Analytics Engine on your PC"
+  homepage "https://orcasheets.ai/"
+
+  app "OrcaSheets.app"
+
+  zap trash: "~/Library/Application Support/OrcaSheets"
+
+end
