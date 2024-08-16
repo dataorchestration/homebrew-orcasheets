@@ -7,6 +7,7 @@ cask "orcasheets" do
 
   url "https://github.com/dataorchestration/homebrew-orcasheets/releases/download/#{version}/orcasheets_#{version}_#{arch}.dmg",
       verified: "github.com/dataorchestration/homebrew-orcasheets/"
+
   name "OrcaSheets"
   desc "World's Fastest Analytics Engine on your PC"
   homepage "https://orcasheets.ai/"
