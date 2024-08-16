@@ -11,8 +11,9 @@ cask "orcasheets" do
   desc "World's Fastest Analytics Engine on your PC"
   homepage "https://orcasheets.ai/"
 
+  depends_on macos: ">= :big_sur"
+
   app "OrcaSheets.app"
 
   zap trash: "~/Library/Application Support/OrcaSheets"
-
 end
