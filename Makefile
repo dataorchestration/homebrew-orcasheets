@@ -40,16 +40,23 @@ update_cask: calculate_checksums
 		Casks/orcasheets.rb.template > Casks/orcasheets.rb
 	@echo "Cask file updated successfully"
 
-create_release: update_cask
-	@echo "Creating GitHub release..."
+create_releases: update_cask
+	@echo "Creating GitHub releases..."
 	@source $(VERSION_FILE); \
-	gh release create $$VERSION -t "OrcaSheets $$VERSION" -n "Release notes for version $$VERSION"
+	gh release create $$VERSION -t "OrcaSheets $$VERSION" -n "Release notes for version $$VERSION"; \
+	gh release delete latest --yes || true; \
+	gh release create latest -t "OrcaSheets Latest ($$VERSION)" -n "This is the latest release of OrcaSheets (version $$VERSION)" --latest
 
-upload_files: create_release
-	@echo "Uploading files to GitHub release..."
+
+upload_files: create_releases
+	@echo "Uploading files to GitHub releases..."
 	@source $(VERSION_FILE); \
 	for file in ./tmp_builds/*/*; do \
 		gh release upload $$VERSION $$file; \
+		latest_file=$$(echo $$file | sed "s/$$VERSION/latest/"); \
+		cp $$file $$latest_file; \
+		gh release upload latest $$latest_file; \
+		rm $$latest_file; \
 	done
 
 update_latest: upload_files
