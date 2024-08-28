@@ -66,7 +66,7 @@ update_latest: upload_files
 
 update_github: update_latest
 	@echo "Pulling latest changes"
-	git pull origin main
+	git pull origin main --rebase
 	@echo "Updating GitHub..."
 	@source $(VERSION_FILE); \
 	git add Casks/orcasheets.rb
