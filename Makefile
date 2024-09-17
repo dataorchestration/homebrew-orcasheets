@@ -7,7 +7,11 @@ VERSION_FILE := .version
 
 all: prompt_version download_files calculate_checksums update_cask create_release upload_files update_latest update_github clean build
 
-prompt_version:
+gitpull:
+	@echo "Pulling latest changes"
+	git pull origin main --rebase
+
+prompt_version: gitpull
 	@read -p "Enter the release version (e.g., 2024.8.4): " VERSION; \
 	echo "VERSION=$$VERSION" > $(VERSION_FILE)
 
@@ -65,8 +69,6 @@ update_latest: upload_files
 	gh release edit $$VERSION --latest
 
 update_github: update_latest
-	@echo "Pulling latest changes"
-	git pull origin main --rebase
 	@echo "Updating GitHub..."
 	@source $(VERSION_FILE); \
 	git add Casks/orcasheets.rb
