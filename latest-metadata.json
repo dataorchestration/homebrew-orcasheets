@@ -1,14 +1,14 @@
 {
-  "version": "2025.3.1",
-  "notes": "Test version",
-  "pub_date": "2025-03-01T01:00:00Z",
+  "version": "2025.3.2",
+  "notes": "Fixes for append/overwrite data",
+  "pub_date": "2025-03-01T01:44:00Z",
   "platforms": {
     "darwin-x86_64": {
-      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVTcHorcGlmN1poMnVoMkNxS0xYWHMvb3B2UFJiQm9NZWhjV1FHWm5qb3YraHZ4QnhEZjNIRDRhdk9SSTBaQTY0KzN2YTROdHZrSjVQcW5zZGM0OXdNNWs2dVVId0l0UWdBPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzQwODE0MDI2CWZpbGU6T3JjYVNoZWV0cy5hcHAudGFyLmd6CkRGQStPcUJZd1VCUElPc1hrUkxXc2JIOVkzckE2UUpUYmNSTHhMS3E5VXlzOXJtRXlrc1FUaFpydjZDcW43SGFiNDJnMjlHMTZCbWFZbUxXekFabERRPT0K",
+      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVTcHorcGlmN1poMmxTUk1maWtFWHhjK2ZjNW93TmpvOEQrSG9UQ3h4RjZpMmJoSno3QkdmVXNZOXZLSXMzd2ZVYWpHNjJyb2ZrUVdDb3VYL21SR1NlZ1NXb28zVGY0UkFvPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzQwODE2NTE5CWZpbGU6T3JjYVNoZWV0cy5hcHAudGFyLmd6ClNXdmdGa1VSQWVKa2lHaHZYa3cyZlVpdVJuZ254Szh6U0NUZ0VMUDdiZUlsc01vMFpkU3VldUgrRGtPME9rRXU0R01RUUxpTFZ5VEcrdG5VRTJBOUFRPT0K",
       "url": "https://github.com/dataorchestration/homebrew-orcasheets/releases/download/latest/Orcasheets_latest_x86_64.dmg"
     },
     "darwin-aarch64": {
-      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVTcHorcGlmN1poMmdXd1J4UE9IazV5NXNvSzBZZnJLSy96QlJrcmg1TXpidGVqT2lzUGxJbktjcW4yanQrQ2VnL3FxUEF0NjlxVmMxdTE0ZHRNZmdpMXNKVGNHMzRuU1FFPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzQwODE0NjAzCWZpbGU6T3JjYVNoZWV0cy5hcHAudGFyLmd6CkYrOG04bjh4RFFUaS84RnVaOWhXRGcvN2s5UFozZmcwenlIN25ZdW9Ja20rNU41VDA3dHd4Zmw5RHEzU1VEN1hyU29pNkp4Y1BUNXg1STNybDlJWEFBPT0K",
+      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVTcHorcGlmN1poMnByc3dlWTNBWnVFL3pzTVpjUzAvelJ2Tk13bUQzSGJjVGxQTU5nQWtrYVFvSWtIVGY4a3AycjdpZ3BhYnpUVlN2VzYrWHMzVTE0U0tRaFpUcU9pbEFJPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzQwODE1NTQxCWZpbGU6T3JjYVNoZWV0cy5hcHAudGFyLmd6CjVVVXhoNjNpSk1YQ01nU1FHRm5nM2FWYS84QzJINHZOcGdHMkNUblhrcWczeGU0T1E2c05Qdk0xU1ZJSTh2Z0VYVkZPWGczSzhFSURtL05FYnJnNkRBPT0K",
       "url": "https://github.com/dataorchestration/homebrew-orcasheets/releases/download/latest/Orcasheets_latest_arm64.dmg"
     },
     "linux-x86_64": {
