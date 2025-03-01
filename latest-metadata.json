@@ -4,8 +4,8 @@
   "pub_date": "2025-03-01T01:44:00Z",
   "platforms": {
     "darwin-x86_64": {
-      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVTcHorcGlmN1poMmxTUk1maWtFWHhjK2ZjNW93TmpvOEQrSG9UQ3h4RjZpMmJoSno3QkdmVXNZOXZLSXMzd2ZVYWpHNjJyb2ZrUVdDb3VYL21SR1NlZ1NXb28zVGY0UkFvPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzQwODE2NTE5CWZpbGU6T3JjYVNoZWV0cy5hcHAudGFyLmd6ClNXdmdGa1VSQWVKa2lHaHZYa3cyZlVpdVJuZ254Szh6U0NUZ0VMUDdiZUlsc01vMFpkU3VldUgrRGtPME9rRXU0R01RUUxpTFZ5VEcrdG5VRTJBOUFRPT0K",
-      "url": "https://github.com/dataorchestration/homebrew-orcasheets/releases/download/latest/OrcaSheets_x86_64.app.tar.gz"
+      "signature": "IK7JVASHCTzFy2U96/rrZEc0TNPX+HGMgoeK7zOGPsftStQoX8YHYEwoi3PNj84raukcZxakjAODVRi/uubbWG9QyKpIMRDGRh4846+aibqt+rXgXZLDHRBb46fswuE6NAaIAEz3i6iVoPREZ+NlWds64apBamFdZVr+ajjd7fN4dxLzODjn3oR7xpCc+MQcrpWdpIdJah/4U3icySS2BeBdr2Vs0iLIP/xlR+5dwIdzxxDCKsUcX/Zj1k+kUIMlBHa5KSmeimgu3N2XVOl3pwX8bszflmMZr/7FqDiiF/8zNPIbBDjsuaas8DmlAay++7azC5OWuiJTsrwQHL4/Lg==",
+      "url": "https://github.com/dataorchestration/homebrew-orcasheets/releases/download/latest/Orcasheets_latest_x86_64.dmg"
     },
     "darwin-aarch64": {
       "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVTcHorcGlmN1poMnByc3dlWTNBWnVFL3pzTVpjUzAvelJ2Tk13bUQzSGJjVGxQTU5nQWtrYVFvSWtIVGY4a3AycjdpZ3BhYnpUVlN2VzYrWHMzVTE0U0tRaFpUcU9pbEFJPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzQwODE1NTQxCWZpbGU6T3JjYVNoZWV0cy5hcHAudGFyLmd6CjVVVXhoNjNpSk1YQ01nU1FHRm5nM2FWYS84QzJINHZOcGdHMkNUblhrcWczeGU0T1E2c05Qdk0xU1ZJSTh2Z0VYVkZPWGczSzhFSURtL05FYnJnNkRBPT0K",
