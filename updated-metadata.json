@@ -1,0 +1,23 @@
+{
+  "version": "2025.12.2",
+  "notes": "Fixes for append/overwrite data",
+  "pub_date": "2025-03-01T01:44:00Z",
+  "platforms": {
+    "darwin-x86_64": {
+      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVTcHorcGlmN1poMnFtQWUwMFk2cUZ1QkhPbXhiaEhGVlNsQUhzdUQ0WGZBMDluMXF5SGtlcHlJK3d6RjluR0FSYXB5U3NFWFgyWlRQMkcwakpOTkFPZXpxaEhyd3hKakE0PQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzY2ODE1MTMxCWZpbGU6T3JjYVNoZWV0cy5hcHAudGFyLmd6CnNGVWo4NGlpQjF2ZU1uQldzaXNSREdTM04yQWR1RlNFUVE0NkZaY0tKM2VPS0R6bFFlTWpvNlc0bm55RnRwVFhQQzVqeEVDSW0xQnFkNGZRN3pQeEJnPT0K",
+      "url": "https://github.com/dataorchestration/homebrew-orcasheets/releases/download/latest/OrcaSheets.app.tar.gz"
+    },
+    "darwin-aarch64": {
+      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVTcHorcGlmN1poMnByc3dlWTNBWnVFL3pzTVpjUzAvelJ2Tk13bUQzSGJjVGxQTU5nQWtrYVFvSWtIVGY4a3AycjdpZ3BhYnpUVlN2VzYrWHMzVTE0U0tRaFpUcU9pbEFJPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzQwODE1NTQxCWZpbGU6T3JjYVNoZWV0cy5hcHAudGFyLmd6CjVVVXhoNjNpSk1YQ01nU1FHRm5nM2FWYS84QzJINHZOcGdHMkNUblhrcWczeGU0T1E2c05Qdk0xU1ZJSTh2Z0VYVkZPWGczSzhFSURtL05FYnJnNkRBPT0K",
+      "url": "https://github.com/dataorchestration/homebrew-orcasheets/releases/download/latest/Orcasheets_latest_arm64.dmg"
+    },
+    "linux-x86_64": {
+      "signature": "",
+      "url": "https://github.com/dataorchestration/homebrew-orcasheets/releases/download/latest/orcasheets_latest_amd64.AppImage"
+    },
+    "windows-x86_64": {
+      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVTcHorcGlmN1poMmtIRTY1OUNiZDRVOVp1bE5OdHY2bnhnMjNYUzIwLzY1L2cxVkdIc0NPdG5iTkpGckp6WDNIYWNmSmNDWTQyN0pOa25BSkI1UUFmVFhDOXhpLzYwWEE0PQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzQxMTAyODgwCWZpbGU6T3JjYVNoZWV0c18yNS4zLjJfeDY0X2VuLVVTLm1zaS56aXAKNDVrcjRZRFFRblhnQzN2M0NNVTdUMExXTmR0c3lDMUZhV1JvRkR6R3VpdGk0cEQ0MWNadmZkN1NUVWRwclVoZXBtYTRXRWtyM2NEeFpZU3NpVjB3QVE9PQo=",
+      "url": "https://windows-builds.orcasheets.io/OrcaSheets_25.3.2_x64_en-US.msi.zip"
+    }
+  }
+}
