@@ -5,7 +5,7 @@
   "platforms": {
     "darwin-x86_64": {
       "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVTcHorcGlmN1poMnFtQWUwMFk2cUZ1QkhPbXhiaEhGVlNsQUhzdUQ0WGZBMDluMXF5SGtlcHlJK3d6RjluR0FSYXB5U3NFWFgyWlRQMkcwakpOTkFPZXpxaEhyd3hKakE0PQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzY2ODE1MTMxCWZpbGU6T3JjYVNoZWV0cy5hcHAudGFyLmd6CnNGVWo4NGlpQjF2ZU1uQldzaXNSREdTM04yQWR1RlNFUVE0NkZaY0tKM2VPS0R6bFFlTWpvNlc0bm55RnRwVFhQQzVqeEVDSW0xQnFkNGZRN3pQeEJnPT0K",
-      "url": "https://github.com/dataorchestration/homebrew-orcasheets/releases/download/latest/OrcaSheets.app.tar.gz"
+      "url": "https://github.com/dataorchestration/homebrew-orcasheets/releases/download/orcasheets-v2/OrcaSheets.app.tar.gz"
     },
     "darwin-aarch64": {
       "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVTcHorcGlmN1poMnByc3dlWTNBWnVFL3pzTVpjUzAvelJ2Tk13bUQzSGJjVGxQTU5nQWtrYVFvSWtIVGY4a3AycjdpZ3BhYnpUVlN2VzYrWHMzVTE0U0tRaFpUcU9pbEFJPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzQwODE1NTQxCWZpbGU6T3JjYVNoZWV0cy5hcHAudGFyLmd6CjVVVXhoNjNpSk1YQ01nU1FHRm5nM2FWYS84QzJINHZOcGdHMkNUblhrcWczeGU0T1E2c05Qdk0xU1ZJSTh2Z0VYVkZPWGczSzhFSURtL05FYnJnNkRBPT0K",
