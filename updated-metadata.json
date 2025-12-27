@@ -4,7 +4,7 @@
   "pub_date": "2025-03-01T01:44:00Z",
   "platforms": {
     "darwin-x86_64": {
-      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVTcHorcGlmN1poMnFtQWUwMFk2cUZ1QkhPbXhiaEhGVlNsQUhzdUQ0WGZBMDluMXF5SGtlcHlJK3d6RjluR0FSYXB5U3NFWFgyWlRQMkcwakpOTkFPZXpxaEhyd3hKakE0PQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzY2ODE1MTMxCWZpbGU6T3JjYVNoZWV0cy5hcHAudGFyLmd6CnNGVWo4NGlpQjF2ZU1uQldzaXNSREdTM04yQWR1RlNFUVE0NkZaY0tKM2VPS0R6bFFlTWpvNlc0bm55RnRwVFhQQzVqeEVDSW0xQnFkNGZRN3pQeEJnPT0K",
+      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVTcHorcGlmN1poMnJEdWNKNkVVRkJXVGZtbFFwQUVxdE96ZlRmdWorY2FZc1I0QmozeWswM3FHTDltdG8rNDZFU3lJNENTWTJTUjFFTW5sQWI2YkZqTW5ZeUp6STNMamdRPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzY2ODE5NjQ3CWZpbGU6T3JjYVNoZWV0cy5hcHAudGFyLmd6CkFmcGs1dGRnNklNUStYb2VIZjlYTTZkblk0aTZUWUtxVUdhWFYrK2xjTzlKdVBBajdiS3llNEdYSGNqckpYS3dWVWxqTW14OTZGNlFjbVplako1ekFnPT0K",
       "url": "https://github.com/dataorchestration/homebrew-orcasheets/releases/download/orcasheets-v2/OrcaSheets.app.tar.gz"
     },
     "darwin-aarch64": {
