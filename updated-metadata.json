@@ -1,5 +1,5 @@
 {
-  "version": "25.12.3",
+  "version": "26.1.1",
   "notes": "Fixes for append/overwrite data",
   "pub_date": "2025-12-27T01:44:00Z",
   "platforms": {
@@ -16,8 +16,8 @@
       "url": "https://github.com/dataorchestration/homebrew-orcasheets/releases/download/latest/orcasheets_latest_amd64.AppImage"
     },
     "windows-x86_64": {
-      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVTcHorcGlmN1poMmtIRTY1OUNiZDRVOVp1bE5OdHY2bnhnMjNYUzIwLzY1L2cxVkdIc0NPdG5iTkpGckp6WDNIYWNmSmNDWTQyN0pOa25BSkI1UUFmVFhDOXhpLzYwWEE0PQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzQxMTAyODgwCWZpbGU6T3JjYVNoZWV0c18yNS4zLjJfeDY0X2VuLVVTLm1zaS56aXAKNDVrcjRZRFFRblhnQzN2M0NNVTdUMExXTmR0c3lDMUZhV1JvRkR6R3VpdGk0cEQ0MWNadmZkN1NUVWRwclVoZXBtYTRXRWtyM2NEeFpZU3NpVjB3QVE9PQo=",
-      "url": "https://windows-builds.orcasheets.io/OrcaSheets_25.3.2_x64_en-US.msi.zip"
+      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVTcHorcGlmN1poMnJXYTY4QXlqRFE1aTkzazRqTlhTQWN6Z0VHMkdUWVlPRDdpSzRFdkFHV1J0QTZtK21EMnJUVUViLzl1ckhZams2bmNoSDYvL25lMUxoa29Tc0ZFaXdjPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzY3MTY3MjU0CWZpbGU6T3JjYVNoZWV0c18yNi4xLjFfeDY0X2VuLVVTLm1zaS56aXAKZDlUbno3OGZxTXRwZnp1dW9sVjZMaFE2NE9QTUNmOXhQSVJPdmlqeHErdVNBd3oycS9nNjFGMkhmYkJKQk9rTG1randHNWorWHlWUzU2NGFreHUzRFE9PQo",
+      "url": "https://windows-builds.orcasheets.io/OrcaSheets_26.1.1_x64_en-US.msi.zip"
     }
   }
 }
