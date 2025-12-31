@@ -17,7 +17,7 @@
     },
     "windows-x86_64": {
       "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVTcHorcGlmN1poMnJXYTY4QXlqRFE1aTkzazRqTlhTQWN6Z0VHMkdUWVlPRDdpSzRFdkFHV1J0QTZtK21EMnJUVUViLzl1ckhZams2bmNoSDYvL25lMUxoa29Tc0ZFaXdjPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzY3MTY3MjU0CWZpbGU6T3JjYVNoZWV0c18yNi4xLjFfeDY0X2VuLVVTLm1zaS56aXAKZDlUbno3OGZxTXRwZnp1dW9sVjZMaFE2NE9QTUNmOXhQSVJPdmlqeHErdVNBd3oycS9nNjFGMkhmYkJKQk9rTG1randHNWorWHlWUzU2NGFreHUzRFE9PQo=",
-      "url": "https://windows-builds.orcasheets.io/OrcaSheets_26.1.1_x64_en-US.msi.zip"
+      "url": "https://windows-builds.orcasheets.io/latest/orcasheets_latest_x64-setup.msi.zip"
     }
   }
 }
