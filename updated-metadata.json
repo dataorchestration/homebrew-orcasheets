@@ -1,15 +1,15 @@
 {
   "version": "26.1.1",
-  "notes": "Fixes for append/overwrite data",
-  "pub_date": "2025-12-27T01:44:00Z",
+  "notes": "## What's New\\n\\n- **Seamless Onboarding** - No more token copy-paste required! Get started instantly.\\n- **Auto Updater** - Say goodbye to \\\"Download the latest version of OrcaSheets\\\" - updates happen automatically.\\n\\nEnjoy the smoother experience!",
+  "pub_date": "2025-12-31T10:15:42.123Z",
   "platforms": {
     "darwin-x86_64": {
-      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVTcHorcGlmN1poMnZJeUpDRDh0a3VKZmoxNkRaSmkzbWd0RTZZaHpXZHBYRnB1NElEOWk2djd4akxCZW93SUVnbURpRkt6Ymx0enlSRnBvS1hUaEI1OU9DY0k2S1F4SUFnPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzY2ODQzOTA4CWZpbGU6T3JjYVNoZWV0cy5hcHAudGFyLmd6ClIzVUdVNyszenBseXUxTmxVRVR0L0xLaWdMYkUxVm80aHBZQWp3Q3h1YU5xU2xCam5GaHlWekpmeWdISWRYdGhDajRiYzlPYWlhbEdwZFZEaXpDS0JRPT0K",
-      "url": "https://github.com/dataorchestration/homebrew-orcasheets/releases/download/orcasheets-v2/OrcaSheets.app.tar.gz"
+      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVTcHorcGlmN1poMnQ3M1ZXWXV1b0lCWVpORG5GUTVpdXBPenZvOUVxWHlMRjgzZm9tVWhpUTJSVkppYlZGUExZUm1RUzBEc0pmRXh6dlNqMnZCTGtMbjVlYmx3SEIyRndVPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzY3MTU3NTY5CWZpbGU6T3JjYVNoZWV0cy5hcHAudGFyLmd6CkhVWVJVQnJudW9qMEJBMnpCYmlDVkRKMEtMbVZVYk9XMnFpMzYwQnVJZllwM1kwYkxwMk1ueTlaNU81R1RybEQwWnpkVEs3c1lTQjFwc0tzd1ZIUENRPT0K",
+      "url": "https://github.com/dataorchestration/homebrew-orcasheets/releases/download/26.1.1/OrcaSheets_x86_64.app.tar.gz"
     },
     "darwin-aarch64": {
-      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVTcHorcGlmN1poMnByc3dlWTNBWnVFL3pzTVpjUzAvelJ2Tk13bUQzSGJjVGxQTU5nQWtrYVFvSWtIVGY4a3AycjdpZ3BhYnpUVlN2VzYrWHMzVTE0U0tRaFpUcU9pbEFJPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzQwODE1NTQxCWZpbGU6T3JjYVNoZWV0cy5hcHAudGFyLmd6CjVVVXhoNjNpSk1YQ01nU1FHRm5nM2FWYS84QzJINHZOcGdHMkNUblhrcWczeGU0T1E2c05Qdk0xU1ZJSTh2Z0VYVkZPWGczSzhFSURtL05FYnJnNkRBPT0K",
-      "url": "https://github.com/dataorchestration/homebrew-orcasheets/releases/download/latest/Orcasheets_latest_arm64.dmg"
+      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVTcHorcGlmN1poMmpzczhENkxiL2tBOVJRYXd5ejBRQWZ1V1pIbWpFSlk3eExPTHh5YWhTYWtHNkNYRFFBZVRLd2dZd3ZQazhNdndMZjUzM3p6OXdZQWV5ZEtKVjhIK3dBPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzY3MTU2NDc1CWZpbGU6T3JjYVNoZWV0cy5hcHAudGFyLmd6CklhODJCYmRacmhZdXJ0cmlTU0ZRRStTdFBMMFFmVVBBRnlJNFJzTy94QytZdWNheUJEMDlSbjVoQU8zUHM4RE5sTzdpbUxhUSt1T0ZXaVhhWm1qdEJBPT0K",
+      "url": "https://github.com/dataorchestration/homebrew-orcasheets/releases/download/26.1.1/OrcaSheets_arm64.app.tar.gz"
     },
     "linux-x86_64": {
       "signature": "",
