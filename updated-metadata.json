@@ -1,14 +1,14 @@
 {
-  "version": "26.1.1",
-  "notes": "What's New:\n\n• Seamless Onboarding - No more token copy-paste required!\n\n• Auto Updater - Updates happen automatically. No more manual downloads!\n\nEnjoy the smoother experience!",
-  "pub_date": "2025-12-31T10:15:42.123Z",
+  "version": "26.1.2",
+  "notes": "Release version 26.1.2",
+  "pub_date": "2026-01-02T13:05:31.000Z",
   "platforms": {
     "darwin-x86_64": {
-      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVTcHorcGlmN1poMmw5STN5YjVvQTNJSW9FblVVVzExTnQwd2o2NW5QaTNKTE9QTHdtaGtxNmdROVFmSFM0VHRZS2VSeUwzNGJzbFFGbndiVzVCZFB1S1k0Tm5kOFBUM1E4PQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzY3MjQ3NzY1CWZpbGU6T3JjYVNoZWV0c194ODZfNjQuYXBwLnRhci5negpPKzlGV25ZS2tjNXZXbFM1L3UwaUFsS0FMTTZjM2lBclIwTE1yU0dvOUNPdSt5NmZHT3FXNDhGb1JEV1YrQzZFcnR5Y25vbDMzVHpBcmlRTEpudGdCQT09Cg==",
+      "signature": "",
       "url": "https://github.com/dataorchestration/homebrew-orcasheets/releases/download/latest/OrcaSheets_x86_64.app.tar.gz"
     },
     "darwin-aarch64": {
-      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVTcHorcGlmN1poMm5NcU5MSDRKQlRNS1VWZzFrUkgvd1JsUXFJbVRnbHYwSlJUaDNsd3FDc242NUJySDhXZW9idlVtZlI3ajYwNmtHSXNOYllRdk9OVDhDbjVLN1VSR0FJPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzY3MjQ3NjMyCWZpbGU6T3JjYVNoZWV0c19hcm02NC5hcHAudGFyLmd6CnJaajNZWndDOGhGSmgrU295d2ZUT3hpMkRBRXhDZEFqVkZuN2V2d0dXN2lIM0tuWW5UTmF4M3dKbXFoYnUwd2lHQXJCZ01IVlNCZ3hVSHRFOUhRSER3PT0K",
+      "signature": "",
       "url": "https://github.com/dataorchestration/homebrew-orcasheets/releases/download/latest/OrcaSheets_arm64.app.tar.gz"
     },
     "linux-x86_64": {
@@ -16,7 +16,7 @@
       "url": "https://github.com/dataorchestration/homebrew-orcasheets/releases/download/latest/orcasheets_latest_amd64.AppImage"
     },
     "windows-x86_64": {
-      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVTcHorcGlmN1poMnJXYTY4QXlqRFE1aTkzazRqTlhTQWN6Z0VHMkdUWVlPRDdpSzRFdkFHV1J0QTZtK21EMnJUVUViLzl1ckhZams2bmNoSDYvL25lMUxoa29Tc0ZFaXdjPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzY3MTY3MjU0CWZpbGU6T3JjYVNoZWV0c18yNi4xLjFfeDY0X2VuLVVTLm1zaS56aXAKZDlUbno3OGZxTXRwZnp1dW9sVjZMaFE2NE9QTUNmOXhQSVJPdmlqeHErdVNBd3oycS9nNjFGMkhmYkJKQk9rTG1randHNWorWHlWUzU2NGFreHUzRFE9PQo=",
+      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVTcHorcGlmN1poMmlleGNaNS9ESGNhS1QzUkR4TkVpS2M1MzJEN0JNYkJuSUwzM3FFQWNiMzliQUpmd3I3L1Vsa0hqVUI3eFhSRXhyWjhhNlZiZTZsWFpUSGhsSWtyUlFBPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzY3MzU4MTY3CWZpbGU6T3JjYVNoZWV0c18yNi4xLjJfeDY0X2VuLVVTLm1zaS56aXAKWkRQTzJVVm9MdDE0bmJzSXB3WHBnUW9Kcm40bUdYckVreTVVdEM1MURvSVprWTQ2MTJUKzMwODN1TGtJbC8va2xRNlVmQVk5bkpNRE9Ra2plRWpyREE9PQo=",
       "url": "https://windows-builds.orcasheets.io/latest/orcasheets_latest_x64-setup.msi.zip"
     }
   }
