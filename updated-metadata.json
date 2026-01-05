@@ -1,6 +1,6 @@
 {
   "version": "26.1.2",
-  "notes": "What's New:\n\n• Enhanced Onboarding - Clearer messaging and smoother flow for getting started\n\n• UI Improvements - Polished interface for a better first-time experience\n\nWe've refined the onboarding process based on your feedback!",
+  "notes": "What's New:\n\n• Clearer sign-in instructions. Get started faster with Google login\n\n• Paste your API token directly during setup (no extra steps or pop-ups)\n\nBased on your feedback!  Thanks for helping us improve.",
   "pub_date": "2026-01-02T13:05:31.000Z",
   "platforms": {
     "darwin-x86_64": {
