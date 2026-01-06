@@ -1,6 +1,6 @@
 {
   "version": "26.1.3",
-  "notes": "What's New:nn• Bug fix for CSV import with \"Time\" column typenn• Styling fixes for published chart and dashboardnnBased on your feedback!  Thanks for helping us improve.",
+  "notes": "What's New:\n\n• Bug fix for CSV import with \"Time\" column type\n\n• Styling fixes for published chart and dashboard\n\nBased on your feedback!  Thanks for helping us improve.",
   "pub_date": "2026-01-06T06:36:20.000Z",
   "platforms": {
     "darwin-x86_64": {
