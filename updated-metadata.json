@@ -1,22 +1,22 @@
 {
-  "version": "26.1.2",
-  "notes": "What's New:\n\n• Clearer sign-in instructions. Get started faster with Google login\n\n• Paste your API token directly during setup (no extra steps or pop-ups)\n\nBased on your feedback!  Thanks for helping us improve.",
-  "pub_date": "2026-01-02T13:05:31.000Z",
+  "version": "26.1.3",
+  "notes": "What's New:nn• Bug fix for CSV import with \"Time\" column typenn• Styling fixes for published chart and dashboardnnBased on your feedback!  Thanks for helping us improve.",
+  "pub_date": "2026-01-06T06:36:20.000Z",
   "platforms": {
     "darwin-x86_64": {
-      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVTcHorcGlmN1poMmxqSldpaUNqbXU3M0xXUWVIQ09tSlRWeFF4MHpkSHl5RHViOVFDODlxQ0t3ZSswNVZ6WGdVSGJlRnJnZGN3SWY4UHFKRWl0cTBRZmRpSEJvODVHR1FRPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzY3MzYxMTkyCWZpbGU6T3JjYVNoZWV0c194ODZfNjQuYXBwLnRhci5negpYK2NOUFpqUnZzNXBON1B5SkdpY04yOCtBOU1jdVBJSFZWNFlLZEUvQjhoRTBTREhHU2ZpWHNWazA3bG9XU0JORmpPdDQyZTN4WkU4aFNSclZhcGtEUT09Cg==",
+      "signature": "",
       "url": "https://github.com/dataorchestration/homebrew-orcasheets/releases/download/latest/OrcaSheets_x86_64.app.tar.gz"
     },
     "darwin-aarch64": {
-      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVTcHorcGlmN1poMmdmcWZPVlBxaERONDF0SllVMWVpdi9uYlRqNUZYQXRNdTBJMzhwSDJVYTdLZ2xrUkRtVlhqbnNVQXhxZUZOYkJHRW9lWEcyRFgxa3NIU1orSTM3L1FvPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzY3MzYxMjQ1CWZpbGU6T3JjYVNoZWV0c19hcm02NC5hcHAudGFyLmd6CmlLUytvOWpQbXBGRjBDb29iaWdSMzNIZ1NOcjRRWkNqVyszWmdBQlZGUDZlNm1HOGlrbXhCRS8vc2lVMTR6L2FZWkEwRjdwNkVVLzY1aG9VdDJSR0J3PT0K",
+      "signature": "",
       "url": "https://github.com/dataorchestration/homebrew-orcasheets/releases/download/latest/OrcaSheets_arm64.app.tar.gz"
     },
     "linux-x86_64": {
-      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVTcHorcGlmN1poMnI1WWNNY2haRERSWHFkbnBTVXAwY0JSNlVBejRVMDdsZkdtelF4WmpKUHFQZGU5NXhEajdpOUk5ZnErQnlTbFN0M0doSVZ2YVgvL2RJSWI1S2VNV0FNPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzY3NjE0NDU4CWZpbGU6T3JjYVNoZWV0c18yNi4xLjJfYW1kNjQuQXBwSW1hZ2UKV0JWazRTb0NkT2xabmN2REFSbjhNYXFxTW9kTlZzZXVDQjNXZEtYUEgxRFpobjB1R2o1Um5ldzduZ1JxK0hKMFZsWG14aDZGTTdTdEQwdFM5OHc5REE9PQo=",
+      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVTcHorcGlmN1poMnFrLzhEa1lPa093bzBjdWppWlV1SDlOQkpFRnNWNHpUeSszMFNwbkU0NUlkRy9XN0hOcEpSaWRPNFhjcFJtZUcwaUNBd1RSWWdWUEtyWlBOKytKTGc4PQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzY3Njc5NDAzCWZpbGU6T3JjYVNoZWV0c18yNi4xLjNfYW1kNjQuQXBwSW1hZ2UKdldQbWt5Tkx3b2pXWFdzeUZtWGZKWXRPdC8xcksyaDV6YlduclZ6aHlVNW9nUjBpODZxQ3d4VlRNRWdHcTJqZGtTbk5FUUV5bXU2RjgxdFFwaWI3QVE9PQo=",
       "url": "https://github.com/dataorchestration/homebrew-orcasheets/releases/download/latest/orcasheets_latest_amd64.AppImage"
     },
     "windows-x86_64": {
-      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVTcHorcGlmN1poMmlleGNaNS9ESGNhS1QzUkR4TkVpS2M1MzJEN0JNYkJuSUwzM3FFQWNiMzliQUpmd3I3L1Vsa0hqVUI3eFhSRXhyWjhhNlZiZTZsWFpUSGhsSWtyUlFBPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzY3MzU4MTY3CWZpbGU6T3JjYVNoZWV0c18yNi4xLjJfeDY0X2VuLVVTLm1zaS56aXAKWkRQTzJVVm9MdDE0bmJzSXB3WHBnUW9Kcm40bUdYckVreTVVdEM1MURvSVprWTQ2MTJUKzMwODN1TGtJbC8va2xRNlVmQVk5bkpNRE9Ra2plRWpyREE9PQo=",
+      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVTcHorcGlmN1poMnJVQWhJTE1uVVcvK3Zob3h3TGJiSitEaUptaGpXNGZiUDZWVm1HRTNWOWt2R0o4bHdneWpDMlArQmRvTGZia095ZnhCd2tIM3lYK1g4TmphWW1ZcEFVPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzY3NjgwMDQyCWZpbGU6T3JjYVNoZWV0c18yNi4xLjNfeDY0X2VuLVVTLm1zaS56aXAKcXI4SytRSWtYOXpqNFdCalZYZWpzcGZ6dzJGTUNHVDRLNkU3aERueFhHUDBYS3FlbXg0WjRWNGFnVkRvSHNTUDg1MlgvQ3JKM2hPeTFvNEU1azhDQ0E9PQo=",
       "url": "https://windows-builds.orcasheets.io/latest/orcasheets_latest_x64-setup.msi.zip"
     }
   }
