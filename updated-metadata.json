@@ -1,6 +1,6 @@
 {
   "version": "26.1.4",
-  "notes": "⭐ New: Open Your Data Files Instantly\n\nDescription: Make OrcaSheets your default app for CSV, XLSX, and Parquet files, so you can double-click and start analysing immediately.\n\nWhat this means for you:\n* You can now open data files instantly with a double-click — no more manual imports.\n* You'll work faster by launching files directly from downloads, email attachments, or shared folders.\n* You'll get a consistent OrcaSheets experience across your entire system whenever you open a data file.",
+  "notes": "\n\n⭐ New: Open Your Data Files Instantly\n\nDescription: Make OrcaSheets your default app for CSV, XLSX, and Parquet files, so you can double-click and start analysing immediately.\n\nWhat this means for you:\n* You can now open data files instantly with a double-click — no more manual imports.\n* You'll work faster by launching files directly from downloads, email attachments, or shared folders.\n* You'll get a consistent OrcaSheets experience across your entire system whenever you open a data file.",
   "pub_date": "2026-01-10T06:07:31.000Z",
   "platforms": {
     "darwin-x86_64": {
