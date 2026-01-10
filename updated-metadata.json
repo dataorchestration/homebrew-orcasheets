@@ -1,6 +1,6 @@
 {
   "version": "26.1.4",
-  "notes": "What's new: \n\n**Set OrcaSheets as Your Default Spreadsheet App**\n\nYou can now make OrcaSheets your default application for opening CSV, XLSX, and Parquet files.\n\nWhat this means for you:\n* Open files instantly with a double-click — no need to manually import.\n* Seamless integration with your operating system's file explorer.\n* Faster workflows when working with data files across folders, downloads, or shared locations.\n* Consistent OrcaSheets experience whether files come from email, downloads, or external tools.",
+  "notes": "\n\n**Set OrcaSheets as Your Default Spreadsheet App**\n\nYou can now make OrcaSheets your default application for opening CSV, XLSX, and Parquet files.\n\nWhat this means for you:\n* Open files instantly with a double-click — no need to manually import.\n* Seamless integration with your operating system's file explorer.\n* Faster workflows when working with data files across folders, downloads, or shared locations.\n* Consistent OrcaSheets experience whether files come from email, downloads, or external tools.",
   "pub_date": "2026-01-10T06:07:31.000Z",
   "platforms": {
     "darwin-x86_64": {
