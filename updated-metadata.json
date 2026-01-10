@@ -1,14 +1,14 @@
 {
   "version": "26.1.4",
-  "notes": "Release version 26.1.4",
+  "notes": "What's new: \n\n**Set OrcaSheets as Your Default Spreadsheet App**\n\nYou can now make OrcaSheets your default application for opening CSV, XLSX, and Parquet files.\n\nWhat this means for you:\n* Open files instantly with a double-click — no need to manually import.\n* Seamless integration with your operating system's file explorer.\n* Faster workflows when working with data files across folders, downloads, or shared locations.\n* Consistent OrcaSheets experience whether files come from email, downloads, or external tools.",
   "pub_date": "2026-01-10T06:07:31.000Z",
   "platforms": {
     "darwin-x86_64": {
-      "signature": "",
+      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVTcHorcGlmN1poMnBhemoxUElNU1h1OWZRYWhsMTMrdmlhZ3RBNWNTOG5NRkZFV0NmeEF0d2IrbEhhTEpTMnk1dk4zZWhBRU55MWJkeGFmbGsxNUpmN0xIWEp4ck9zUHdJPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzY4MDI1MjIyCWZpbGU6T3JjYVNoZWV0c194ODZfNjQuYXBwLnRhci5negozcHZMaUdkMDBDc1Z2clZiOXVmSFp5QXgzNC9oV0R3THZVa1ZBNFQxZVpJejNFaFZvbWg3aFJzSDhQcGg0U0JpdzZVbTVCaVpnZFBCQ1dlT2dhSENDdz09Cg==",
       "url": "https://github.com/dataorchestration/homebrew-orcasheets/releases/download/latest/OrcaSheets_x86_64.app.tar.gz"
     },
     "darwin-aarch64": {
-      "signature": "",
+      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVTcHorcGlmN1poMmhacmFXRkdQbkJRbk1DZkRlYlZhKzJHUDR4V25hK3lMbEc0ZWc1TzdDRWNkbTVzQXhTbk1ZNXhab2U0QnhzVkt0enkvb205bk5aRTBKa3NZcGgvRlFVPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzY4MDI1MjMyCWZpbGU6T3JjYVNoZWV0c19hcm02NC5hcHAudGFyLmd6CjBET1hNTFBSTXdxaFl4YjNGWkxINE1zVTRHT0Q4M21JVExRL3FLV3dXSlErbWZwOG85bStOVE1iNERub3ZYVWNRdlh4NGVGWjFLWXROUGZnN2l2ZUNnPT0K",
       "url": "https://github.com/dataorchestration/homebrew-orcasheets/releases/download/latest/OrcaSheets_arm64.app.tar.gz"
     },
     "linux-x86_64": {
