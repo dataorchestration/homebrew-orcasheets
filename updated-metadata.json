@@ -1,14 +1,14 @@
 {
   "version": "26.1.5",
-  "notes": "\u001b[200~\"nn⭐ Improvements & FixesnnDescription: This release focuses on making file management smoother, improving the desktop experience, and polishing a few important details across platforms.nnWhat this means for you:n* You can now delete data files directly and bulk delete multiple sheets, making it easier to manage and clean up your workspace.n* Window menu bar options have been fixed to ensure a more reliable and consistent desktop experience.n* The auto-updater popup now has an updated design, making update prompts clearer and less disruptive.n* Downloaded files now keep the correct file names, so it’s easier to find and organize your data.n* Project paths are handled correctly on Windows, preventing issues caused by incorrect path separators.\"",
+  "notes": "\n\n⭐ Improvements & Fixes\n\nDescription: This release focuses on making file management smoother, improving the desktop experience, and polishing a few important details across platforms.\n\nWhat this means for you:\n* You can now delete data files directly and bulk delete multiple sheets, making it easier to manage and clean up your workspace.\n* Window menu bar options have been fixed to ensure a more reliable and consistent desktop experience.\n* The auto-updater popup now has an updated design, making update prompts clearer and less disruptive.\n* Downloaded files now keep the correct file names, so it’s easier to find and organize your data.\n* Project paths are handled correctly on Windows, preventing issues caused by incorrect path separators.",
   "pub_date": "2026-01-18T06:15:17.000Z",
   "platforms": {
     "darwin-x86_64": {
-      "signature": "",
+      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVTcHorcGlmN1poMmd4SVlaRngxVmR0bDFRRzNGMUE1YXV6U1ZKZUFXazc2bUcyQ216bEM4aVNmdno2SnZaWVhEUXVmaFVXTGpwTDFjYXl2bXBkYnVlUWZ5cWtIeFlRMmdjPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzY4NzE2NjM4CWZpbGU6T3JjYVNoZWV0c194ODZfNjQuYXBwLnRhci5negpwNHlwWVhsMHpxdElsYyszRHAxei9iVFVxVWdabmdUTFpTampleXVwQndheXZ0aFh6aEd4Smo5dW90WDFzOG4yTDRRKzlob1M1cnlPb0drcUNzRXRBZz09Cg==",
       "url": "https://github.com/dataorchestration/homebrew-orcasheets/releases/download/latest/OrcaSheets_x86_64.app.tar.gz"
     },
     "darwin-aarch64": {
-      "signature": "",
+      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVTcHorcGlmN1poMnZFakxCY3phMW9vb2ErcHZSUkM5dXN3dnh3SGE2Y3hEaVRTK3l6UjRoNFM4UXN1c3ROejZDWGYxSGw0RjBzMXlBZURrOGlROGtSa3I5OGlVUFFiaVFjPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzY4NzE2NjQ3CWZpbGU6T3JjYVNoZWV0c19hcm02NC5hcHAudGFyLmd6CndsUTJacVhUVGFYa01YSHZuZnhidUgrZDVZVFJoTUZnQllJQ1FJQ0RlQVEvK1VHWFlwem0zaVBVYXFKa2t2bllrNlpoM1NUZjFXZHdiOFdjTExZaEFBPT0K",
       "url": "https://github.com/dataorchestration/homebrew-orcasheets/releases/download/latest/OrcaSheets_arm64.app.tar.gz"
     },
     "linux-x86_64": {
