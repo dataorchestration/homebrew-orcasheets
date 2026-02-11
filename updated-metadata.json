@@ -1,22 +1,22 @@
 {
-  "version": "26.1.5",
-  "notes": "\n\n⭐ Improvements & Fixes\n\nDescription: This release focuses on making file management smoother, improving the desktop experience, and polishing a few important details across platforms.\n\nWhat this means for you:\n* You can now delete data files directly and bulk delete multiple sheets, making it easier to manage and clean up your workspace.\n* Window menu bar options have been fixed to ensure a more reliable and consistent desktop experience.\n* The auto-updater popup now has an updated design, making update prompts clearer and less disruptive.\n* Downloaded files now keep the correct file names, so it’s easier to find and organize your data.\n* Project paths are handled correctly on Windows, preventing issues caused by incorrect path separators.",
-  "pub_date": "2026-01-18T06:15:17.000Z",
+  "version": "26.2.1",
+  "notes": "Release version 26.2.1",
+  "pub_date": "2026-02-11T07:17:19.000Z",
   "platforms": {
     "darwin-x86_64": {
-      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVTcHorcGlmN1poMmd4SVlaRngxVmR0bDFRRzNGMUE1YXV6U1ZKZUFXazc2bUcyQ216bEM4aVNmdno2SnZaWVhEUXVmaFVXTGpwTDFjYXl2bXBkYnVlUWZ5cWtIeFlRMmdjPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzY4NzE2NjM4CWZpbGU6T3JjYVNoZWV0c194ODZfNjQuYXBwLnRhci5negpwNHlwWVhsMHpxdElsYyszRHAxei9iVFVxVWdabmdUTFpTampleXVwQndheXZ0aFh6aEd4Smo5dW90WDFzOG4yTDRRKzlob1M1cnlPb0drcUNzRXRBZz09Cg==",
+      "signature": "",
       "url": "https://github.com/dataorchestration/homebrew-orcasheets/releases/download/latest/OrcaSheets_x86_64.app.tar.gz"
     },
     "darwin-aarch64": {
-      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVTcHorcGlmN1poMnZFakxCY3phMW9vb2ErcHZSUkM5dXN3dnh3SGE2Y3hEaVRTK3l6UjRoNFM4UXN1c3ROejZDWGYxSGw0RjBzMXlBZURrOGlROGtSa3I5OGlVUFFiaVFjPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzY4NzE2NjQ3CWZpbGU6T3JjYVNoZWV0c19hcm02NC5hcHAudGFyLmd6CndsUTJacVhUVGFYa01YSHZuZnhidUgrZDVZVFJoTUZnQllJQ1FJQ0RlQVEvK1VHWFlwem0zaVBVYXFKa2t2bllrNlpoM1NUZjFXZHdiOFdjTExZaEFBPT0K",
+      "signature": "",
       "url": "https://github.com/dataorchestration/homebrew-orcasheets/releases/download/latest/OrcaSheets_arm64.app.tar.gz"
     },
     "linux-x86_64": {
-      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVTcHorcGlmN1poMmgweHVsdkMzbk5UOU1JTEdXR3A4OFZOKzYzQ1hJZC9nNEVmcEdBNFNpRzhEZDgvRUJxY0pZNVh0L1dpcUlhZ1RDelJQUjNjMGVPZDhSSUFrTjEzd3drPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzY4NzE1NDc4CWZpbGU6T3JjYVNoZWV0c18yNi4xLjVfYW1kNjQuQXBwSW1hZ2UKZU4zTWlVV0JIRHcxVEhtZWU5L0NOOG9xcmI1aitMUzlmbzBJVkRDVUhsZHJWS3BHQWowbTF4S3cxektXdkNzUnQyYlI4UU1UYk1paHk0K084OUZsQmc9PQo=",
+      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVTcHorcGlmN1poMmc1TUszcFY5bWNrZFRldFZ3RENGTVk5TzAwWis0V3lFN2E1TFpySVNSRnJtdzJwckp5YW1kakt4TU8yVlkyVW9JSEg5anFZVHBiTzB2UmhnSHZ2Q3c4PQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzcwNzU4MDY5CWZpbGU6T3JjYVNoZWV0c18yNi4yLjFfYW1kNjQuQXBwSW1hZ2UKd0UrVjNEOWRQTnVzOUdnTGVvSzJzTklGbUZKRThralF0U2lBWFVVOWQwUm1tQjZBODBYRGFjYjF2cDErN1gxeGRudVFZOURqSXc0SFpyK0tiTHlEQkE9PQo=",
       "url": "https://github.com/dataorchestration/homebrew-orcasheets/releases/download/latest/orcasheets_latest_amd64.AppImage"
     },
     "windows-x86_64": {
-      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVTcHorcGlmN1poMnFBcncvWUhCMlV1M3VXVXk4Z0FhT0EzVXkvSW9qaXZDOHByM1Q5akZPOXdvV3NFRnFBM1pKTVNVYUhKMm5mRWthY1JRU2c0b3Y4Nk1nbnpEQnYrOFFVPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzY4NzE0MTMyCWZpbGU6T3JjYVNoZWV0c18yNi4xLjVfeDY0X2VuLVVTLm1zaS56aXAKVThMbkIzNElLQnh3MXRTV29CQXVvRWhWcHVsbWN2aGxaVzN2L3hWREhkY3A2QnpneU1HM0Fmd1NtMnFUa2xhcUI4QUhhSjk3b1VpMEpRSXg2NTVpQmc9PQo=",
+      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVTcHorcGlmN1poMm54OUwxTi9ZU3FEMGZQamsyRjZuY2tUMTNBRFRxb25KNFBxdUZ5TWtoSDQvaUpJL0Nydk43ZURuMnVSY1dFNC84UGxpd0hON2RyWGx3OU5lSmtLcmdZPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzcwNzU5NzAwCWZpbGU6T3JjYVNoZWV0c18yNi4yLjFfeDY0X2VuLVVTLm1zaS56aXAKdWljQUlEaUpYZjg2VERLYzFPenk1UmxhUFVhSmRyZzVidDB3eEZoYmhpMDBxbXVzekYvODhidzl0Nm5tTG9hSkhPZUtCVVZlVmUxNlE4U2FBaWFYRHc9PQo=",
       "url": "https://windows-builds.orcasheets.io/latest/orcasheets_latest_x64-setup.msi.zip"
     }
   }
