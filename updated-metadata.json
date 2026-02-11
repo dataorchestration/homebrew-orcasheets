@@ -1,14 +1,14 @@
 {
   "version": "26.2.1",
-  "notes": "Release version 26.2.1",
+  "notes": "\n\n⭐ Improvements & Fixes\n\nDescription: This release brings major improvements to data connectivity, project workflows, and dashboard creation, while fixing critical issues that improve stability.\n\nWhat this means for you:\n* SQL Connector has been rebuilt with a cleaner two-step process—add your credentials, select your tables, and test the connection before committing.\n* You can now merge multiple sheets with matching schemas into one directly from the grid toolbar, with the option to delete source sheets afterward for a cleaner workspace.\n* Create empty scratch projects without needing dummy CSVs—pull data straight from your connectors from the start.\n* Dashboard creation is faster and less disruptive—add new dashboards directly from the "Add to Dashboard" flow without being pulled away from your work.\n* Sankey charts now handle cyclic data gracefully by filtering out cycles, with the filtered data available for download if you want to investigate.\n* Copy/Paste commands are working reliably again across the application.",
   "pub_date": "2026-02-11T07:17:19.000Z",
   "platforms": {
     "darwin-x86_64": {
-      "signature": "",
+      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVTcHorcGlmN1poMnRuTGNaUUNYRDBOZ2ROWm5ERGdXZVFFUWZkL3Yyay9GcmVIQmxnVGZqU3lJaVhKdnNmWGM0RFJqMDNNMExBcHpFWGVicjY4L1U5cmpVYVNvR0tKNndnPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzcwNzk0MzE2CWZpbGU6T3JjYVNoZWV0c194ODZfNjQuYXBwLnRhci5negpOaTBZRGdENUtxdkNXT1lSQnNxTkkrQ0thWlloSXF2dWZRT2c3cUFWQnNsOWpnZmp0MDFkZmZyekpjbTJ3RDZja3YzUGtxUmxucXZvbk9qblZYUDNCdz09Cg==",
       "url": "https://github.com/dataorchestration/homebrew-orcasheets/releases/download/latest/OrcaSheets_x86_64.app.tar.gz"
     },
     "darwin-aarch64": {
-      "signature": "",
+      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVTcHorcGlmN1poMnNTUGxiQW01cFF6bzgzUGFFZGgxNEpwdEFGSjBTRzNFbVlQbkEvbHZMMVV5WStUVnQxUVpCWTgxN0UwUHZzWXlILy9rZFI0L1g5b2JRdC91TnhObHdnPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzcwNzk0MzcwCWZpbGU6T3JjYVNoZWV0c19hcm02NC5hcHAudGFyLmd6Ck1ZNjl2RCs2bWhwaFVXMEk3TmJFZGNZK0ltUGgwb3ordk9tZFN6VDVBUkEwbXJ3OXVTYXJ5OFJBZHlwT0V5YTUwSzZqazRNQkNVTUdjR2tJRTM4RkNRPT0K",
       "url": "https://github.com/dataorchestration/homebrew-orcasheets/releases/download/latest/OrcaSheets_arm64.app.tar.gz"
     },
     "linux-x86_64": {
