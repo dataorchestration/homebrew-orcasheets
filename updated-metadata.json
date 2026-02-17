@@ -1,14 +1,14 @@
 {
   "version": "26.2.2",
-  "notes": "Release version 26.2.2",
+  "notes": "\n\nStability Improvements. \n\n* Fixed startup crashes: Resolved an issue where OrcaSheets could crash immediately on launch for some users. OrcaSheets now opens reliably.",
   "pub_date": "2026-02-17T05:14:42.000Z",
   "platforms": {
     "darwin-x86_64": {
-      "signature": "",
+      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVTcHorcGlmN1poMm1WTDdIOHFrcXNaNTJUU20vNmQrSU9UOTI3bTJkRTJkZCt1YktwdFVzMjFzOVF5eXY3bXlqT3FHTU1rT0pRakhqVkFzVTVjSUxpYkRWeFoyNjZyRUFNPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzcxMzA1Mzc0CWZpbGU6T3JjYVNoZWV0c194ODZfNjQuYXBwLnRhci5negppL0YvaUNmdDU5bHZmWExhWmcyYWJTYk5SYjZnaE4wRlE3TnZxTW9yRGFpUXV2RkRNOVNXeHIvcEdpNUV3UU1Ncm5pTmJZeUthK0dzQUdMaVBWWG5Bdz09Cg==",
       "url": "https://github.com/dataorchestration/homebrew-orcasheets/releases/download/latest/OrcaSheets_x86_64.app.tar.gz"
     },
     "darwin-aarch64": {
-      "signature": "",
+      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVTcHorcGlmN1poMnZBeUQzUWk5MWljZG8vRUxiYkdWaGMzMWdoNmtvRWluc3dPNzdCQzBSTnc5dktZa2Nabk9xNDg4R1hxVXZRbmFTUjhWWCt6enpDL3JiVUd4YWliZlEwPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzcxMzA1NDEyCWZpbGU6T3JjYVNoZWV0c19hcm02NC5hcHAudGFyLmd6Cm15M1grL2U1TkhNbEJKT2hqcmd1eWJPMlIrTmhEc0ZXN0tCZlZ0OERzaXRscHA2cWZOZ3VzMTFtRklRV2grUFBBcTJaTFJtSWpnbERPcXlsbTJmOUR3PT0K",
       "url": "https://github.com/dataorchestration/homebrew-orcasheets/releases/download/latest/OrcaSheets_arm64.app.tar.gz"
     },
     "linux-x86_64": {
