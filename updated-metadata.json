@@ -1,22 +1,22 @@
 {
-  "version": "26.2.2",
-  "notes": "\n\nStability Improvements. \n\n* Fixed startup crashes: Resolved an issue where OrcaSheets could crash immediately on launch for some users. OrcaSheets now opens reliably.",
-  "pub_date": "2026-02-17T05:14:42.000Z",
+  "version": "26.2.3",
+  "notes": "Release version 26.2.3",
+  "pub_date": "2026-02-26T21:29:28.000Z",
   "platforms": {
     "darwin-x86_64": {
-      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVTcHorcGlmN1poMm1WTDdIOHFrcXNaNTJUU20vNmQrSU9UOTI3bTJkRTJkZCt1YktwdFVzMjFzOVF5eXY3bXlqT3FHTU1rT0pRakhqVkFzVTVjSUxpYkRWeFoyNjZyRUFNPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzcxMzA1Mzc0CWZpbGU6T3JjYVNoZWV0c194ODZfNjQuYXBwLnRhci5negppL0YvaUNmdDU5bHZmWExhWmcyYWJTYk5SYjZnaE4wRlE3TnZxTW9yRGFpUXV2RkRNOVNXeHIvcEdpNUV3UU1Ncm5pTmJZeUthK0dzQUdMaVBWWG5Bdz09Cg==",
+      "signature": "",
       "url": "https://github.com/dataorchestration/homebrew-orcasheets/releases/download/latest/OrcaSheets_x86_64.app.tar.gz"
     },
     "darwin-aarch64": {
-      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVTcHorcGlmN1poMnZBeUQzUWk5MWljZG8vRUxiYkdWaGMzMWdoNmtvRWluc3dPNzdCQzBSTnc5dktZa2Nabk9xNDg4R1hxVXZRbmFTUjhWWCt6enpDL3JiVUd4YWliZlEwPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzcxMzA1NDEyCWZpbGU6T3JjYVNoZWV0c19hcm02NC5hcHAudGFyLmd6Cm15M1grL2U1TkhNbEJKT2hqcmd1eWJPMlIrTmhEc0ZXN0tCZlZ0OERzaXRscHA2cWZOZ3VzMTFtRklRV2grUFBBcTJaTFJtSWpnbERPcXlsbTJmOUR3PT0K",
+      "signature": "",
       "url": "https://github.com/dataorchestration/homebrew-orcasheets/releases/download/latest/OrcaSheets_arm64.app.tar.gz"
     },
     "linux-x86_64": {
-      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVTcHorcGlmN1poMmdYcnV2aGlES1ZxS1I2NkVSeE55aE9uMzlmdWh4ZEhuQU9ORktRMDdwZllmYnVQZml3ZkliOWdhS2dzL0R0a25TalArMlFqcnNObHZKSkdBTXRoc0FrPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzcxMzAyNzc0CWZpbGU6T3JjYVNoZWV0c18yNi4yLjJfYW1kNjQuQXBwSW1hZ2UKVW5QMzBwV1FrRUlpcWpLV1NybjFNRXluMkdIdERBQS9nRlllc2owTDZSSGY0OWd1YUJLbzBOY1J3VnA3UjB3c2xYYjBObG9rdHZuWWdzOXFqTFZ3Q2c9PQo=",
+      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVTcHorcGlmN1poMm1UUFlTTFdNR3Y1QXVmY05uQTB3RysrU0xTWWlmNS9NM3cxSU1iRDFJdktIMGFRdWdqYjJudTg3a1lXQ1pjZ1JqYkRWUU5aZTNidm1KeEdCWE5KYXcwPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzcyMTM4MTg3CWZpbGU6T3JjYVNoZWV0c18yNi4yLjNfYW1kNjQuQXBwSW1hZ2UKWHpaYTI0R0pPeDRNKzU3N3kxcDFIc0liTGlQbFZxdGE1V1BWRXBPZmJ0UG1YbnhCNVg5WFNwNVkyUFJBWXpnR2oxNEZxM3ppamo4R0FtcU03dFZOQWc9PQo=",
       "url": "https://github.com/dataorchestration/homebrew-orcasheets/releases/download/latest/orcasheets_latest_amd64.AppImage"
     },
     "windows-x86_64": {
-      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVTcHorcGlmN1poMmhjeE1HZzdFbFY2WlNTcm4zbFdsa3VTSnhCa2tZWTlEc3JCb3R3Nnh5NjJ0S0x4SW9LbjdHZ2w0dHM1SlF4c0FVQ2ZYQXZzQVRlZE9CS3dxSkFzNFFrPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzcxMzA0MDQ3CWZpbGU6T3JjYVNoZWV0c18yNi4yLjJfeDY0X2VuLVVTLm1zaS56aXAKVzdyV1hWVHRUdWhVNFZ1c0ZEVDd1ZmRrbW15VWpPMnFkbWxZWTBxMEdmaTE2TEdCTW5QbnBzdkQzY1VXR0pSaTFIdEJuY0g4U2c5c2RoQzB5cTVkQlE9PQo=",
+      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVTcHorcGlmN1poMmgwN3E2MHAzRkYwVHVZRG5ORHVJWGY1bWxIOEpCWC9VM1JSUk1YNXlWR1ZuVHpWY3VFOUhUckpXUCtUbVpOTGtaQ0NnQ3llTHNRL3dUVHc3ZDJQU2d3PQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzcyMTQwMTg1CWZpbGU6T3JjYVNoZWV0c18yNi4yLjNfeDY0X2VuLVVTLm1zaS56aXAKeUJzUzJ5YzhiZzJGc05LeEIzdlI5QzFHSFdhTmZxck9GRmd3d0Fzd2todkdNVmx5WFZCRzlvYkM4aXhZMG0vWGE5ck5nN0pDaVRNY1JLWXpIc2kwQlE9PQo=",
       "url": "https://windows-builds.orcasheets.io/latest/orcasheets_latest_x64-setup.msi.zip"
     }
   }
