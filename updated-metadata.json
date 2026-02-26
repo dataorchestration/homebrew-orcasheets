@@ -1,14 +1,14 @@
 {
   "version": "26.2.3",
-  "notes": "Release version 26.2.3",
+  "notes": "\n\nWhat's New. \n\n* Snowflake Connector (+ Sample Configs): You can now connect directly to Snowflake from the connectors list. And because nobody enjoys staring at a blank config screen wondering what goes where, we've added sample connection configs for most connectors so you can test things out without the guesswork.\n\n* AI SQL Editor (Beta): You still don't need to know SQL. We just got better at it. Describe what you need in plain English and we'll handle the rest: merging sheets, cleaning messy data, building filtered views from raw sources. Your results show up in a fresh sheet you can tweak, re-run, or refresh whenever your source data changes. We speak SQL so you never have to. This one's a premium feature. Drop us a message to get it enabled.\n\n* Single Window Architecture: The app used to run across three separate windows for the splash screen, onboarding and the main interface. That worked fine until macOS 26 decided it didn't like our multi-window setup anymore. So we've consolidated everything into one clean full-screen window. Fewer moving parts, fewer crashes and better vibes.\n\n* Recent Activity Tracking: Your project list now sorts by what you actually worked on last, and jumping between screens brings you right back to the tab you were on. Less time re-orienting, more time doing the thing you came here to do.\n\nFixes. \n\n* Editing messages in the chat container works again (a regression from the last release broke it, and we're sorry about that).\n\n* Downloading your connector config no longer exposes database passwords in plain text. Sensitive fields are now obfuscated in the exported JSON, because shipping credentials in a config file is the kind of surprise nobody needs.",
   "pub_date": "2026-02-26T21:29:28.000Z",
   "platforms": {
     "darwin-x86_64": {
-      "signature": "",
+      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVTcHorcGlmN1poMnMrWkcxL1VSRTlCR3kwZTZ0aG5ZNTJoVmt4cG8wN1ptcW10OC96RWxCMWk1aE5zOWs2U1hITmUvWXo3QlFJbWZjdW9RM3kyaVdIT3UvT2JNay9OUndnPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzcyMTQxNTIwCWZpbGU6T3JjYVNoZWV0c194ODZfNjQuYXBwLnRhci5negpJdVZvdU0wQy9hSjcySFY5K0VtRmFrd0lzSlBCUjI3RjA0Y2tRdEh1aW1QTEdOVGcwSDlPNkppaUJEcmN3SHNPSDlBTyt1VG9CeDFrc2VXMFZNeWxDdz09Cg==",
       "url": "https://github.com/dataorchestration/homebrew-orcasheets/releases/download/latest/OrcaSheets_x86_64.app.tar.gz"
     },
     "darwin-aarch64": {
-      "signature": "",
+      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVTcHorcGlmN1poMnNZTXdoVVcxRVRGaWJqZ3BpTkZWekg0c1N1TmU4NDhGWVEyRHhtZlpBcHRGYkhLcGhkeXhtM2hoeEtCdHExNmhUVG54cHYxVHRaTUNrMHhxSkdsa3djPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzcyMTQxNDc4CWZpbGU6T3JjYVNoZWV0c19hcm02NC5hcHAudGFyLmd6CkFET0NjcG12OWE1Ym5XeHQva2lMWkxTWFFCYVFsaUE1UkY2Q2MvMUlOTHUweVEzOVJ1R3BUQU45cERvbVJwOFpWSDVVV2wxcjdIUFFJOEJ0VjhjVEJBPT0K",
       "url": "https://github.com/dataorchestration/homebrew-orcasheets/releases/download/latest/OrcaSheets_arm64.app.tar.gz"
     },
     "linux-x86_64": {
