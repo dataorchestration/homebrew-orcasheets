@@ -1,14 +1,14 @@
 {
   "version": "26.2.4",
-  "notes": "Release version 26.2.4",
+  "notes": "\n\nImprovements. \n\n* More resilient CSV import: Updated CSV parsing to attempt a strict read first, then progressively fall back to less strict parsing when needed — improving compatibility with messy or inconsistent CSVs.\n\nFixes. \n\n* Regression fix: Restored support for creating an empty project, which could fail in certain cases after recent changes.",
   "pub_date": "2026-02-27T18:48:53.000Z",
   "platforms": {
     "darwin-x86_64": {
-      "signature": "",
+      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVTcHorcGlmN1poMnFwYWcvemo0a2k3UXBmS0dRUUpXWkJqWU1WMEQ1ckRLTWUxM0ttb3prL0ZRMkJ3bWNKSW5lbExaSVBtUkQvcTk3eVNtU3dCTGVXaVU0SDlVL2o2cHdnPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzcyMjE4MjkxCWZpbGU6T3JjYVNoZWV0c194ODZfNjQuYXBwLnRhci5negpQNXlVNXF1R0lQUDRBTTkyQm1JTTBVYzdBUjBqYWt5UStJbFI0M2dSWlVjazB3algrSGZCRzdZckx2Zks2bVZzK1dLNmkvZGRvTFpoOGxLQmZjYllBZz09Cg==",
       "url": "https://github.com/dataorchestration/homebrew-orcasheets/releases/download/latest/OrcaSheets_x86_64.app.tar.gz"
     },
     "darwin-aarch64": {
-      "signature": "",
+      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVTcHorcGlmN1poMnB3b2drZGxwbGwvT3VqUDM2RE5TSkljQjY0Z3hac201VjdadzJVcUxWR0RzYmxHZWFkRC9vVmNRbHF1Z016UWl1SUNtWkZIVlpMUDlnekUwY09WQkFJPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzcyMjE4MzU4CWZpbGU6T3JjYVNoZWV0c19hcm02NC5hcHAudGFyLmd6CkFITmJSNjVpL2habmF1MEVWRzEvbVVuVnpDSTNaSjBDb0xqTHlaM00wSDRCNHdjaVRtWW11V2x5Sms4dEVGUTQ1Q1JnZ05QMURFY2NSMjNic1dPcEFBPT0K",
       "url": "https://github.com/dataorchestration/homebrew-orcasheets/releases/download/latest/OrcaSheets_arm64.app.tar.gz"
     },
     "linux-x86_64": {
