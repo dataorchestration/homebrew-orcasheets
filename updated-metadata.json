@@ -1,22 +1,22 @@
 {
-  "version": "26.2.3",
-  "notes": "\n\n* Snowflake Connector (+ Sample Configs): You can now connect directly to Snowflake from the connectors list. And because nobody enjoys staring at a blank config screen wondering what goes where, we've added sample connection configs for most connectors so you can test things out without the guesswork.\n\n* AI SQL Editor (Beta): You still don't need to know SQL. We just got better at it. Describe what you need in plain English and we'll handle the rest: merging sheets, cleaning messy data, building filtered views from raw sources. Your results show up in a fresh sheet you can tweak, re-run, or refresh whenever your source data changes. We speak SQL so you never have to. This one's a premium feature. Drop us a message to get it enabled.\n\n* Single Window Architecture: The app used to run across three separate windows for the splash screen, onboarding and the main interface. That worked fine until macOS 26 decided it didn't like our multi-window setup anymore. So we've consolidated everything into one clean full-screen window. Fewer moving parts, fewer crashes and better vibes.\n\n* Recent Activity Tracking: Your project list now sorts by what you actually worked on last, and jumping between screens brings you right back to the tab you were on. Less time re-orienting, more time doing the thing you came here to do.\n\nFixes. \n\n* Editing messages in the chat container works again (a regression from the last release broke it, and we're sorry about that).\n\n* Downloading your connector config no longer exposes database passwords in plain text. Sensitive fields are now obfuscated in the exported JSON, because shipping credentials in a config file is the kind of surprise nobody needs.",
-  "pub_date": "2026-02-26T21:29:28.000Z",
+  "version": "26.2.4",
+  "notes": "Release version 26.2.4",
+  "pub_date": "2026-02-27T18:48:53.000Z",
   "platforms": {
     "darwin-x86_64": {
-      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVTcHorcGlmN1poMnMrWkcxL1VSRTlCR3kwZTZ0aG5ZNTJoVmt4cG8wN1ptcW10OC96RWxCMWk1aE5zOWs2U1hITmUvWXo3QlFJbWZjdW9RM3kyaVdIT3UvT2JNay9OUndnPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzcyMTQxNTIwCWZpbGU6T3JjYVNoZWV0c194ODZfNjQuYXBwLnRhci5negpJdVZvdU0wQy9hSjcySFY5K0VtRmFrd0lzSlBCUjI3RjA0Y2tRdEh1aW1QTEdOVGcwSDlPNkppaUJEcmN3SHNPSDlBTyt1VG9CeDFrc2VXMFZNeWxDdz09Cg==",
+      "signature": "",
       "url": "https://github.com/dataorchestration/homebrew-orcasheets/releases/download/latest/OrcaSheets_x86_64.app.tar.gz"
     },
     "darwin-aarch64": {
-      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVTcHorcGlmN1poMnNZTXdoVVcxRVRGaWJqZ3BpTkZWekg0c1N1TmU4NDhGWVEyRHhtZlpBcHRGYkhLcGhkeXhtM2hoeEtCdHExNmhUVG54cHYxVHRaTUNrMHhxSkdsa3djPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzcyMTQxNDc4CWZpbGU6T3JjYVNoZWV0c19hcm02NC5hcHAudGFyLmd6CkFET0NjcG12OWE1Ym5XeHQva2lMWkxTWFFCYVFsaUE1UkY2Q2MvMUlOTHUweVEzOVJ1R3BUQU45cERvbVJwOFpWSDVVV2wxcjdIUFFJOEJ0VjhjVEJBPT0K",
+      "signature": "",
       "url": "https://github.com/dataorchestration/homebrew-orcasheets/releases/download/latest/OrcaSheets_arm64.app.tar.gz"
     },
     "linux-x86_64": {
-      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVTcHorcGlmN1poMm1UUFlTTFdNR3Y1QXVmY05uQTB3RysrU0xTWWlmNS9NM3cxSU1iRDFJdktIMGFRdWdqYjJudTg3a1lXQ1pjZ1JqYkRWUU5aZTNidm1KeEdCWE5KYXcwPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzcyMTM4MTg3CWZpbGU6T3JjYVNoZWV0c18yNi4yLjNfYW1kNjQuQXBwSW1hZ2UKWHpaYTI0R0pPeDRNKzU3N3kxcDFIc0liTGlQbFZxdGE1V1BWRXBPZmJ0UG1YbnhCNVg5WFNwNVkyUFJBWXpnR2oxNEZxM3ppamo4R0FtcU03dFZOQWc9PQo=",
+      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVTcHorcGlmN1poMmdxaG9JWFBCVUlIVGNyOURMUTFERExtZkZOQlBoL2srY05JS2g5ZklrSXpqd20wak16a2FLMENSU2pkQnRhWVNuOGlNbFVuYnVwbDlNUHpiVjdGV0FRPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzcyMjE0MDMwCWZpbGU6T3JjYVNoZWV0c18yNi4yLjRfYW1kNjQuQXBwSW1hZ2UKMVVjYnMvbDBzVmUvU2V3SnZwaG95SXFPVnFPY3JXTDhZVzJBSCtMenJYcSswbUdkV2dLTFJMbklFSTFTZ0RVaVZDbEMvWjZXSFIrVDE4NWJsOFJqQmc9PQo=",
       "url": "https://github.com/dataorchestration/homebrew-orcasheets/releases/download/latest/orcasheets_latest_amd64.AppImage"
     },
     "windows-x86_64": {
-      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVTcHorcGlmN1poMmgwN3E2MHAzRkYwVHVZRG5ORHVJWGY1bWxIOEpCWC9VM1JSUk1YNXlWR1ZuVHpWY3VFOUhUckpXUCtUbVpOTGtaQ0NnQ3llTHNRL3dUVHc3ZDJQU2d3PQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzcyMTQwMTg1CWZpbGU6T3JjYVNoZWV0c18yNi4yLjNfeDY0X2VuLVVTLm1zaS56aXAKeUJzUzJ5YzhiZzJGc05LeEIzdlI5QzFHSFdhTmZxck9GRmd3d0Fzd2todkdNVmx5WFZCRzlvYkM4aXhZMG0vWGE5ck5nN0pDaVRNY1JLWXpIc2kwQlE9PQo=",
+      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVTcHorcGlmN1poMmdBci9ocE8wRTlJTHNsZTR6K3AvQ1NMLytRajNyMWdOWlFXVTY4b0wyV3MwREcwam03V3l3RjBRNHJESndhdUpTUjNGVDZseDIyRTFXWTVaaXp0TWdFPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzcyMjE2MzMxCWZpbGU6T3JjYVNoZWV0c18yNi4yLjRfeDY0X2VuLVVTLm1zaS56aXAKbXJvY0srUTYvMDJqdTBYdDNUZm4yNmxxQ1J2UGVzSElLbEFPellLWlNiRkJwcjh0cG9CU2pHV1RXQ0tRZ2RpdDJkSEtIc2s1MTRIRDU4WHhkc0MrREE9PQo=",
       "url": "https://windows-builds.orcasheets.io/latest/orcasheets_latest_x64-setup.msi.zip"
     }
   }
