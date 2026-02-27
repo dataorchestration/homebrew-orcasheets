@@ -1,0 +1,167 @@
+[
+  {
+    "version": "26.2.3",
+    "date": "February 27, 2026",
+    "sections": [
+      {
+        "title": "What's New",
+        "items": [
+          "Snowflake Connector (+ Sample Configs): Connect directly to Snowflake from the connectors list, with sample connection configs so you can quickly test connections without starting from a blank form.",
+          "AI SQL Editor (Beta): Describe what you need in plain English—merging sheets, cleaning messy data, or building filtered views from raw sources—and we generate the SQL and results into a fresh, refreshable sheet. This is a premium feature; message us to get it enabled.",
+          "Single Window Architecture: Consolidated the splash screen, onboarding, and main interface into a single full-screen window to align with macOS 26 changes, reducing crashes and simplifying the experience.",
+          "Recent Activity Tracking: Projects now sort by what you actually worked on last, and screens remember the tab you were on so it’s easier to pick up where you left off."
+        ]
+      },
+      {
+        "title": "Fixes",
+        "items": [
+          "Editing messages in the chat container works again after a regression in the last release.",
+          "Downloading connector configs no longer exposes database passwords in plain text; sensitive fields are now obfuscated in the exported JSON."
+        ]
+      }
+    ]
+  },
+  {
+    "version": "26.2.2",
+    "date": "February 17, 2026",
+    "sections": [
+      {
+        "title": "Stability Improvements",
+        "items": [
+          "Fixed startup crashes: Resolved an issue where OrcaSheets could crash immediately on launch for some users. OrcaSheets now opens reliably."
+        ]
+      }
+    ]
+  },
+  {
+    "version": "26.2.1",
+    "date": "February 11, 2026",
+    "sections": [
+      {
+        "title": "What's New",
+        "items": [
+          "SQL Connector Rebuilt — Two-step process: plug in credentials, pick your tables, then connect. You can test the connection before committing.",
+          "Merge Data — Combine multiple sheets with the same schema into one from Update Data in the grid toolbar. Delete source sheets after if you like.",
+          "Scratch Projects — Create an empty project without uploading a dummy CSV; pull data straight from your connectors.",
+          "Dashboard Upgrades — Create a new dashboard directly from the \"Add to Dashboard\" flow. Adding a visualisation no longer navigates you away from what you were working on."
+        ]
+      },
+      {
+        "title": "Fixes",
+        "items": [
+          "Sankey charts no longer crash on cyclic data (cycles are filtered out and downloadable).",
+          "Copy/Paste commands work reliably again across the application."
+        ]
+      }
+    ]
+  },
+  {
+    "version": "26.1.5",
+    "date": "January 18, 2026",
+    "sections": [
+      {
+        "title": "Improvements & Fixes",
+        "items": [
+          "Delete data files directly and bulk delete multiple sheets for easier workspace management.",
+          "Window menu bar options fixed for a more reliable desktop experience.",
+          "Auto-updater popup redesigned for clearer, less disruptive update prompts.",
+          "Downloaded files now keep the correct file names.",
+          "Project paths handled correctly on Windows (correct path separators)."
+        ]
+      }
+    ]
+  },
+  {
+    "version": "26.1.4",
+    "date": "January 10, 2026",
+    "sections": [
+      {
+        "title": "New: Open Your Data Files Instantly",
+        "items": [
+          "Make OrcaSheets your default app for CSV, XLSX, and Parquet files — double-click and start analysing immediately.",
+          "Open data files with a double-click; no more manual imports.",
+          "Launch files directly from downloads, email attachments, or shared folders for faster workflow.",
+          "Consistent OrcaSheets experience across your system whenever you open a data file."
+        ]
+      }
+    ]
+  },
+  {
+    "version": "26.1.3",
+    "date": "January 6, 2026",
+    "sections": [
+      {
+        "title": "What's New",
+        "items": [
+          "Bug fix for CSV import with \"Time\" column type.",
+          "Styling fixes for published chart and dashboard."
+        ]
+      },
+      { "title": "", "items": ["Based on your feedback! Thanks for helping us improve."] }
+    ]
+  },
+  {
+    "version": "26.1.2",
+    "date": "January 2, 2026",
+    "sections": [{ "title": "", "items": ["Release version 26.1.2"] }]
+  },
+  {
+    "version": "26.1.1",
+    "date": "December 31, 2025",
+    "sections": [
+      {
+        "title": "What's New",
+        "items": [
+          "Seamless Onboarding — No more token copy-paste required. Get started instantly.",
+          "Auto Updater — Updates happen automatically; no more manual \"Download the latest version\" messages."
+        ]
+      },
+      { "title": "", "items": ["Enjoy the smoother experience!"] }
+    ]
+  },
+  {
+    "version": "25.8.1",
+    "date": "August 16, 2025",
+    "sections": [
+      {
+        "title": "New Visualizations",
+        "items": [
+          "Stacked Chart — Compare component contributions within a total over time or across categories.",
+          "Chart From Chat — Generate a chart from a natural-language prompt (cloud-backed for speed and scalability)."
+        ]
+      },
+      {
+        "title": "Interaction & Analysis",
+        "items": [
+          "Column-Level Sorting & Multi-Sort — Sort any column with multiple sort priorities.",
+          "Summarization — One-click automated summary of key trends and patterns for the current data view."
+        ]
+      },
+      {
+        "title": "Filtering & Views",
+        "items": [
+          "Save Filters — Persist filter configurations and reapply them instantly.",
+          "Auto Filter Naming — Saved filters get sensible default names.",
+          "Keyboard Navigation for Filter Panel — Navigate and apply filters without a mouse."
+        ]
+      },
+      {
+        "title": "Reliability",
+        "items": ["Soft-Fail Widgets — Failed widgets show a non-blocking error with Retry; other content keeps loading."]
+      },
+      {
+        "title": "Design & Accessibility",
+        "items": [
+          "Harmonized Color Palette — Updated palette for readability, contrast, and accessibility.",
+          "Keyboard Navigation for Dashboard Widgets — Move focus between widgets and use actions via keyboard."
+        ]
+      },
+      {
+        "title": "Infrastructure",
+        "items": [
+          "Prompt Processing Moved to Cloud — Natural-language features (chart from chat, summarization) run in the cloud for faster responses and scalability."
+        ]
+      }
+    ]
+  }
+]
