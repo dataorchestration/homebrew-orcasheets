@@ -1,14 +1,14 @@
 {
   "version": "26.3.1",
-  "notes": "Release version 26.3.1",
+  "notes": "\n\nImprovements. \n\n* Faster OrcAI responses: Improved performance of the OrcAI feature with added retry logic for more reliable results, even under intermittent failures.\n\n* Database connector views: Added support for views across database connectors, so you can now query and work with views alongside tables.\n\n* Resizable window: The application window is now freely resizable, giving you more control over your workspace layout.\n\nFixes. \n\n* Postgres connector fix: Resolved a regression in the Postgres connector caused by sample connection configs interfering with active connections.",
   "pub_date": "2026-03-14T13:13:14.000Z",
   "platforms": {
     "darwin-x86_64": {
-      "signature": "",
+      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVTcHorcGlmN1poMnBoMjBTaTdlbkZvUXovT25HR3h0S0JjR05IZ0RCbEVEQzFzM1l6L1NKR043ZjV2YllOK1FIenRnMDh2NzRoVjV2d3pCTFRjS1BZYVZIQW1JQWhKdndNPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzczNDkzODk4CWZpbGU6T3JjYVNoZWV0c194ODZfNjQuYXBwLnRhci5negp4SG5zeDRtdUs5R0JON29XeXVHRmxxU3A1OXBKbFJRWTIwd3hPNjlvZGVzaXB3T09TYVJsRHNBRXcvZkl2UnVoSjQrRktpQ2N0TzFNRkxrMWtPbnlBUT09Cg==",
       "url": "https://github.com/dataorchestration/homebrew-orcasheets/releases/download/latest/OrcaSheets_x86_64.app.tar.gz"
     },
     "darwin-aarch64": {
-      "signature": "",
+      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVTcHorcGlmN1poMnMrN28zOWlEQXdNY01QbUZIaEhxeDVmSnRIYW1Sd25mQkM1Y1Bybjd6a1h3a05hbWhLcDBib203VE5kMDI1VGNtQVBId3FtK0dXbm45T2pMczR5THdjPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzczNDk0MDQwCWZpbGU6T3JjYVNoZWV0c19hcm02NC5hcHAudGFyLmd6Cm5VQkI3N2hoTE1rbldqdHRycnAyNXdJbEo0bktLVEVOVm9pb0hoYzQ1OW5FV2Qwd21MVWVSN21qMVFSL0x4WUhlWENFT3pXZU12OVN5ZnpzTzB6dUFRPT0K",
       "url": "https://github.com/dataorchestration/homebrew-orcasheets/releases/download/latest/OrcaSheets_arm64.app.tar.gz"
     },
     "linux-x86_64": {
