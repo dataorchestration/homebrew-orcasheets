@@ -1,14 +1,14 @@
 {
   "version": "26.3.2",
-  "notes": "Release version 26.3.2",
+  "notes": "\n\nFixes: \n\n* CSV duplicate columns: Fixed an error that occurred when importing CSV files with duplicate column names.\n\n* Excel duplicate row: Resolved an issue where importing any Excel file would generate an extra duplicate row.\n\n* SQL connector table config: Fixed an issue where table configuration was being ignored for SQL connectors when uploading JSON config.",
   "pub_date": "2026-03-26T06:33:56.000Z",
   "platforms": {
     "darwin-x86_64": {
-      "signature": "",
+      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVTcHorcGlmN1poMmxUUmdvcTlZNDBIMGYrTVg1ZHlHU1ZHdGtuYVQ1MEFPUHZpSW41cmZuU1JKTlhnWU9xb2ljUWVtVmFKc3RPaE1PMURTVmNVMTE3YUZnaW51QnlEVkFVPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzc0NTA2OTU0CWZpbGU6T3JjYVNoZWV0c194ODZfNjQuYXBwLnRhci5nego2OVI4QWJhUUlSVUkvbDc0dzBlTVRlTnlsa2tOTlF5SHl2UEY4Qjg3UFE5OWF3QXN0U0Nnd21zdVVMWUN6RDduM2taenNYVWlQMFBUYnNGQ2FBMXpBUT09Cg==",
       "url": "https://github.com/dataorchestration/homebrew-orcasheets/releases/download/latest/OrcaSheets_x86_64.app.tar.gz"
     },
     "darwin-aarch64": {
-      "signature": "",
+      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVTcHorcGlmN1poMm1Oc3Q0VE1iSkRiY2w3WmNCektzRlZNTWx5OXdNaVpsOHA1eHZHWjZjUENDNzhudmY0M2NBRzRGRjlrQStUY0N5L0lmM1ZlN3JGRU5lOTk0RHYyWGdNPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzc0NTA2OTczCWZpbGU6T3JjYVNoZWV0c19hcm02NC5hcHAudGFyLmd6CncvK0ZTeDhEQy9TKzdadTBUS0NBY2tQWTJ0UnJMaVVTMHpiTFBqNEozeThTMEdKY3hNK0EybFg2Tk56aERkbEREMStUM3lkdlhQakF4UHZrRkRyMERBPT0K",
       "url": "https://github.com/dataorchestration/homebrew-orcasheets/releases/download/latest/OrcaSheets_arm64.app.tar.gz"
     },
     "linux-x86_64": {
