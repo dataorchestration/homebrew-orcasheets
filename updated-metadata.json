@@ -1,22 +1,22 @@
 {
-  "version": "26.3.1",
-  "notes": "\n\nImprovements. \n\n* Faster OrcAI responses: Improved performance of the OrcAI feature with added retry logic for more reliable results, even under intermittent failures.\n\n* Database connector views: Added support for views across database connectors, so you can now query and work with views alongside tables.\n\n* Resizable window: The application window is now freely resizable, giving you more control over your workspace layout.\n\nFixes. \n\n* Postgres connector fix: Resolved a regression in the Postgres connector caused by sample connection configs interfering with active connections.",
-  "pub_date": "2026-03-14T13:13:14.000Z",
+  "version": "26.3.2",
+  "notes": "Release version 26.3.2",
+  "pub_date": "2026-03-26T06:33:56.000Z",
   "platforms": {
     "darwin-x86_64": {
-      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVTcHorcGlmN1poMnBoMjBTaTdlbkZvUXovT25HR3h0S0JjR05IZ0RCbEVEQzFzM1l6L1NKR043ZjV2YllOK1FIenRnMDh2NzRoVjV2d3pCTFRjS1BZYVZIQW1JQWhKdndNPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzczNDkzODk4CWZpbGU6T3JjYVNoZWV0c194ODZfNjQuYXBwLnRhci5negp4SG5zeDRtdUs5R0JON29XeXVHRmxxU3A1OXBKbFJRWTIwd3hPNjlvZGVzaXB3T09TYVJsRHNBRXcvZkl2UnVoSjQrRktpQ2N0TzFNRkxrMWtPbnlBUT09Cg==",
+      "signature": "",
       "url": "https://github.com/dataorchestration/homebrew-orcasheets/releases/download/latest/OrcaSheets_x86_64.app.tar.gz"
     },
     "darwin-aarch64": {
-      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVTcHorcGlmN1poMnMrN28zOWlEQXdNY01QbUZIaEhxeDVmSnRIYW1Sd25mQkM1Y1Bybjd6a1h3a05hbWhLcDBib203VE5kMDI1VGNtQVBId3FtK0dXbm45T2pMczR5THdjPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzczNDk0MDQwCWZpbGU6T3JjYVNoZWV0c19hcm02NC5hcHAudGFyLmd6Cm5VQkI3N2hoTE1rbldqdHRycnAyNXdJbEo0bktLVEVOVm9pb0hoYzQ1OW5FV2Qwd21MVWVSN21qMVFSL0x4WUhlWENFT3pXZU12OVN5ZnpzTzB6dUFRPT0K",
+      "signature": "",
       "url": "https://github.com/dataorchestration/homebrew-orcasheets/releases/download/latest/OrcaSheets_arm64.app.tar.gz"
     },
     "linux-x86_64": {
-      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVTcHorcGlmN1poMnFOTmhVTXA1TjZzTnN0SHBNRUNIRnhWMGpBZzhEd1kxUm9qeUd0emJwSE1GaXgxUVdTV0JJaC91OXJlbE95QlRvTVJBWk1scXJieUd5YnovYWU3dnc0PQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzczNDkwOTAzCWZpbGU6T3JjYVNoZWV0c18yNi4zLjFfYW1kNjQuQXBwSW1hZ2UKcHFFOWI3UFQ0QTJvUHQxT3loQVcxMTRnT0JmWFhUUmFHQml4YkhjdFFPNldKNFpNaGVvQ1pFRGt1U3Q5VW1JcSt4WGp2ZGVkVVlYRnQwa3FVMTJPQkE9PQo=",
+      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVTcHorcGlmN1poMm9jOHNSRi95VWRQcHVqNVVrdVZ2SVFMaWp1TzNLT0hZcFNyRFJWNS9iTDZMVWJNRGFkZTNiQ0VDSW9nTFlZc1pWOTV4dVNNenY3cmJzU1NRb1FBeXdBPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzc0NTA0OTk0CWZpbGU6T3JjYVNoZWV0c18yNi4zLjJfYW1kNjQuQXBwSW1hZ2UKLzEwcUg0NG9XUjNRb3ByUTl2Nm1DYVVHMWVzb04xcHZpdW45OGF1SUh3aEIvRGJ2NGxMNDR1ZTVZYlpZenowaGYzUXBMbUJOdkw0ZlRZWk5TOTVrQlE9PQo=",
       "url": "https://github.com/dataorchestration/homebrew-orcasheets/releases/download/latest/orcasheets_latest_amd64.AppImage"
     },
     "windows-x86_64": {
-      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVTcHorcGlmN1poMmp4ZVgwZkE4S3JicVIxamFia2JhcXpEajg3QWFFLzFray9ZMzdSL3g3S3FCMGFITGYyRm5rcy80cHM3TUNGaDZ1Y3c2TjlncUwvdXh0V25wQWZrNlFjPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzczNDkzMzE3CWZpbGU6T3JjYVNoZWV0c18yNi4zLjFfeDY0X2VuLVVTLm1zaS56aXAKMjNURUJkeE9wemorTnhpaHlaK1NzdG1WazJLbVRYTWI2OURmaHlSeWIyU1NjeSt6ZU9PUVlDWTJkWDRUS2pxQllHUlFCNFdjS1FvbVFjYnllNFRTQ3c9PQo=",
+      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVTcHorcGlmN1poMnBLTVNucGNsZmIzLytDa2V0dzNXVjVWbUpzdTJCNDNmSEZuN3hjSllrWnRFSXZiUTV5ODlpaitzSWduRFd0N0k1QUc2R3FDWUE5eFc0bVM4aFEwY1FBPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzc0NTA2MTk5CWZpbGU6T3JjYVNoZWV0c18yNi4zLjJfeDY0X2VuLVVTLm1zaS56aXAKa21iWGRnU0hITkI1YURYVGRkd2JMbzcwbnVpTitYQlArZjRjT2U5cUVzSTR6eGU5TGVmbGFVT2grT2pRLzBnUXVBK00ramJDRTZuNGE1aE12c21MQ1E9PQo=",
       "url": "https://windows-builds.orcasheets.io/latest/orcasheets_latest_x64-setup.msi.zip"
     }
   }
