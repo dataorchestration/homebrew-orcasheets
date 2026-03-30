@@ -1,14 +1,14 @@
 {
   "version": "26.3.3",
-  "notes": "Release version 26.3.3",
+  "notes": "\n\n• Multi-Sheet Chat is now for everyone\nAI Chat now reads your whole workbook by default, not just the active sheet. If you have too many sheets, you can hand-pick the ones that matter. Enterprise had this first, but good things shouldn't be gatekept.\n\n• Faster Report Generation\nWe were rebuilding the HTML from scratch every time a report was generated, and your load times reflected that. That's fixed now.\n\n• Smarter Connector Re-sync\nRe-sync now covers your derived sheets alongside the originals, and connector stats that had gone mysteriously silent are back where they belong.",
   "pub_date": "2026-03-30T09:11:52.000Z",
   "platforms": {
     "darwin-x86_64": {
-      "signature": "",
+      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVTcHorcGlmN1poMnF3MHRSREluNjMzQ1RxdWZFeTBERVFqOWV4Qm5tSHZsQ1owWERrK1hwTVByYnZCL053ckdhbEs5R002WllLSFdDOTFyZmxZM1lBQzNhYlo5QWEzWXdRPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzc0ODYxOTU5CWZpbGU6T3JjYVNoZWV0c194ODZfNjQuYXBwLnRhci5negpnVFlFdkcyTVA0dHJHSXUwUWVEQTNFZkF2VWVZZ2JrM0FhRk5jbG4zbG5PU0N4NW5MOEtVcGxobTRYMkJkcGEycjhDY3BxcGRpR0F5eGN6NXE0TUhBQT09Cg==",
       "url": "https://github.com/dataorchestration/homebrew-orcasheets/releases/download/latest/OrcaSheets_x86_64.app.tar.gz"
     },
     "darwin-aarch64": {
-      "signature": "",
+      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVTcHorcGlmN1poMnZXZWFOS0ZmSzJvajQ2bVpCYi8wYUFHZER1YXNwYldnc3QwVVViVE8ycFNNVW1FUGdZWGVYRzBGcnZXNDRIaklteEhBOEo4aFEvbWE1VTNqOGlCZ2dBPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzc0ODYyMDEzCWZpbGU6T3JjYVNoZWV0c19hcm02NC5hcHAudGFyLmd6Cng2aDZ5d3NTelo0MzR6VDUwbWpwNkovWjQzVE9VczFWb3ZMQ0VmT1RaU1pDTXIxc3JjSWh6YnlRRzhDRmcxVXpVTTlNT2oyN3RrdUFKR29KYTBweUR3PT0K",
       "url": "https://github.com/dataorchestration/homebrew-orcasheets/releases/download/latest/OrcaSheets_arm64.app.tar.gz"
     },
     "linux-x86_64": {
