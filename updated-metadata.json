@@ -1,6 +1,6 @@
 {
   "version": "26.3.3",
-  "notes": "\n\n• Multi-Sheet Chat is now for everyone\nAI Chat now reads your whole workbook by default, not just the active sheet. If you have too many sheets, you can hand-pick the ones that matter. Enterprise had this first, but good things shouldn't be gatekept.\n\n• Faster Report Generation\nWe were rebuilding the HTML from scratch every time a report was generated, and your load times reflected that. That's fixed now.\n\n• Smarter Connector Re-sync\nRe-sync now covers your derived sheets alongside the originals, and connector stats that had gone mysteriously silent are back where they belong.",
+  "notes": "\n\n Multi-Sheet Chat is now for everyone: AI Chat now reads your whole workbook by default, not just the active sheet. If you have too many sheets, you can hand-pick the ones that matter. Enterprise had this first, but good things shouldn't be gatekept.\n\n Faster Report Generation: We were rebuilding the HTML from scratch every time a report was generated, and your load times reflected that. That's fixed now.\n\n Smarter Connector Re-sync: Re-sync now covers your derived sheets alongside the originals, and connector stats that had gone mysteriously silent are back where they belong.",
   "pub_date": "2026-03-30T09:11:52.000Z",
   "platforms": {
     "darwin-x86_64": {
