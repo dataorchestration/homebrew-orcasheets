@@ -1,22 +1,22 @@
 {
-  "version": "26.3.3",
-  "notes": "\n\n Multi-Sheet Chat is now for everyone: AI Chat now reads your whole workbook by default, not just the active sheet. If you have too many sheets, you can hand-pick the ones that matter. Enterprise had this first, but good things shouldn't be gatekept.\n\n Faster Report Generation: We were rebuilding the HTML from scratch every time a report was generated, and your load times reflected that. That's fixed now.\n\n Smarter Connector Re-sync: Re-sync now covers your derived sheets alongside the originals, and connector stats that had gone mysteriously silent are back where they belong.",
-  "pub_date": "2026-03-30T09:11:52.000Z",
+  "version": "26.4.1",
+  "notes": "Release version 26.4.1",
+  "pub_date": "2026-04-10T20:48:41.000Z",
   "platforms": {
     "darwin-x86_64": {
-      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVTcHorcGlmN1poMnF3MHRSREluNjMzQ1RxdWZFeTBERVFqOWV4Qm5tSHZsQ1owWERrK1hwTVByYnZCL053ckdhbEs5R002WllLSFdDOTFyZmxZM1lBQzNhYlo5QWEzWXdRPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzc0ODYxOTU5CWZpbGU6T3JjYVNoZWV0c194ODZfNjQuYXBwLnRhci5negpnVFlFdkcyTVA0dHJHSXUwUWVEQTNFZkF2VWVZZ2JrM0FhRk5jbG4zbG5PU0N4NW5MOEtVcGxobTRYMkJkcGEycjhDY3BxcGRpR0F5eGN6NXE0TUhBQT09Cg==",
+      "signature": "",
       "url": "https://github.com/dataorchestration/homebrew-orcasheets/releases/download/latest/OrcaSheets_x86_64.app.tar.gz"
     },
     "darwin-aarch64": {
-      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVTcHorcGlmN1poMnZXZWFOS0ZmSzJvajQ2bVpCYi8wYUFHZER1YXNwYldnc3QwVVViVE8ycFNNVW1FUGdZWGVYRzBGcnZXNDRIaklteEhBOEo4aFEvbWE1VTNqOGlCZ2dBPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzc0ODYyMDEzCWZpbGU6T3JjYVNoZWV0c19hcm02NC5hcHAudGFyLmd6Cng2aDZ5d3NTelo0MzR6VDUwbWpwNkovWjQzVE9VczFWb3ZMQ0VmT1RaU1pDTXIxc3JjSWh6YnlRRzhDRmcxVXpVTTlNT2oyN3RrdUFKR29KYTBweUR3PT0K",
+      "signature": "",
       "url": "https://github.com/dataorchestration/homebrew-orcasheets/releases/download/latest/OrcaSheets_arm64.app.tar.gz"
     },
     "linux-x86_64": {
-      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVTcHorcGlmN1poMmhSTlRoTlREcVFvTXZlZ2hvTm9neGFTK0cwRUNIdVpTL2cxMHhMSmR1TnNlYmRESlhOTWw5WENJSkNHRXFHWUdsRCtXRE00WkJlSEZiQ0ZmOW1KZGc4PQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzc0ODUyODE3CWZpbGU6T3JjYVNoZWV0c18yNi4zLjNfYW1kNjQuQXBwSW1hZ2UKSWNhZ3g3dGFES01UTDVPaDIyVVRkWnBEK2xlVTNuVEIxUHBlalAvVjJjaTRqUFgvSk9NVE1FMk50K1NESzZZc0FBNytIN2FaZnQxdjd0NmJpTm02Q3c9PQo=",
+      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVTcHorcGlmN1poMnFsdENvZkRSdTBqUVg2c0dtMTNKajZyWi9pdUs2YXNqNWwrakFTTkpzNldPMENadXgxSGpKR0RyU0hRZy91OU1yZHVOUk10c3NpMlJKYmE2WTIrc2drPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzc1ODUwODgzCWZpbGU6T3JjYVNoZWV0c18yNi40LjFfYW1kNjQuQXBwSW1hZ2UKT0RlQmFnQkp4eXRMQm1yTExOWGZZSzlrdVlEZ3pROWNzL080UHNINGxNODBYZU0yaG5pdVNXcUhUcEZ4MGpGT2VLZlQxTUV1d1ZBQURvNjJ4NlBSQUE9PQo=",
       "url": "https://github.com/dataorchestration/homebrew-orcasheets/releases/download/latest/orcasheets_latest_amd64.AppImage"
     },
     "windows-x86_64": {
-      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVTcHorcGlmN1poMmhMOCtONXhqNG1iR2wwbXJmeWsya0tJc1FjR2pBS1I0UDV0b0EyNnQzTWRudHNKYjNvbTA2TE5lemU3dGZIRWRHYW1kbmY1bGExQS9KU0ZoK0FrbmdBPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzc0ODU2OTc4CWZpbGU6T3JjYVNoZWV0c18yNi4zLjNfeDY0X2VuLVVTLm1zaS56aXAKRTdXanZSdlpTSnEwVFhWWFhhMDQ3WjNObUp4QUJFYVZSWlgxVzNLSzNaNVA0eUpJZ3pqQWlmMTU0ZVdicEo3cEtWMCt5K3doN2Mzc04yUExtazFxQXc9PQo=",
+      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVTcHorcGlmN1poMnFmeTlzcUQ0NXdDTnNXeU9vVDZwMXpLK0ptZTZTV0lpN1JMeE9jTzNCNG9KcHFXQ1ZWQ0VtWnlRM2Y5STVoZ25UZHI4UWRCT1JmdkN0bUNLRnRmS2drPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzc1ODUzNjc4CWZpbGU6T3JjYVNoZWV0c18yNi40LjFfeDY0X2VuLVVTLm1zaS56aXAKczRIc2NRd0hMOGsrTmJGRkVNYkdyMmZMSGVUWXpPOEhRa0s0aEZTemJmSXpXTEZrS1VtT1Z1WkdGU2diOTg2RHk1Slc2K2dIQ2N5c3d0alZhTXYrQXc9PQo=",
       "url": "https://windows-builds.orcasheets.io/latest/orcasheets_latest_x64-setup.msi.zip"
     }
   }
