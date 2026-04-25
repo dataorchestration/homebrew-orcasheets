@@ -1,14 +1,14 @@
 {
   "version": "26.4.2",
-  "notes": "Release version 26.4.2",
+  "notes": "\n\n Folder Sync & Multi-File Merge: Most Excel power users hit a wall around 60-70k rows — Excel starts choking, so they end up splitting the same kind of data across dozens of files. Now you can point OrcaSheets at an entire directory of data files (CSV, Excel, Parquet, TSV) and it'll automatically merge sheets that share the same schema into one unified sheet. Different schemas in the same folder? No problem — they stay separate. And when files in that directory get modified or new ones show up, just hit the new Sync Project option in the main app to re-sync everything in one shot. This repurposes the existing Select Folder flow, but way more flexible than before.\n\n Keyboard Shortcuts: A bunch of new keyboard shortcuts have been added for faster navigation — switching between tabs, opening files, and getting around the app without touching your mouse. Head to Help → Keyboard Shortcuts to see the full list.\n\n Smarter AI Responses: OrcAI and AI-powered report generation have both gotten meaningfully better at producing useful, accurate output.\n\n Better Pivot Query Handling: Query responses for PIVOT operations have been tightened up for more reliable results.\n\n AWS Glue Connector - Hourly Partition Fix: The OrcaSheets Glue connector wasn't handling incremental data partitioned by hour correctly. Fixed — hourly partitioned tables now sync incrementally as expected.",
   "pub_date": "2026-04-25T06:57:52.000Z",
   "platforms": {
     "darwin-x86_64": {
-      "signature": "",
+      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVTcHorcGlmN1poMnV3cEtaaDZQcGk3bnY3WlpEcXZaZjAwTzZacGMyODEzVVpkcDdsOGtIVmRCLzNvRkZ2Z2dKK2RiaUcwKytVVWhxOEo1T1Vwd1lGSWxwK2pkT1dPandNPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzc3MDk2MDE4CWZpbGU6T3JjYVNoZWV0c194ODZfNjQuYXBwLnRhci5negprZzBBZUFLaEt0VmNFYWt0cm5JdXdZYkw5aUNRMlI2YnJac1N6MHRmYW12L1JhRklzYVZYZVZkQkpiY2dFRXhJSGh6b3J4OHJxWkl5VWxIc2tDVElCZz09Cg==",
       "url": "https://github.com/dataorchestration/homebrew-orcasheets/releases/download/latest/OrcaSheets_x86_64.app.tar.gz"
     },
     "darwin-aarch64": {
-      "signature": "",
+      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVTcHorcGlmN1poMmdXekxRd1BXYTNqODZkRVF3MURtRFhaalRXdjA5NjByVjgwbCtrRllsRFZUd2NjQ0FsL3pqcXd6UTJiYXBrdGtpcTNXU3k0bkRBckFHck9qQVd5aXdBPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzc3MDk1NDQyCWZpbGU6T3JjYVNoZWV0c19hcm02NC5hcHAudGFyLmd6ClNPWWUrMkM5OThISGNWTnB6d1BtVDAvRk1CK0JoUXB4ZHVSOHhxU2x1UnFDZEpKTThmQ0FCU1N6ZXJIV1lRRytMcEJaZzdFNFo5ZlZ4ZFFrZFowc0RBPT0K",
       "url": "https://github.com/dataorchestration/homebrew-orcasheets/releases/download/latest/OrcaSheets_arm64.app.tar.gz"
     },
     "linux-x86_64": {
