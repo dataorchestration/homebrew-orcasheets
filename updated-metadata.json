@@ -1,22 +1,22 @@
 {
-  "version": "26.4.1",
-  "notes": "\n\n OrcaSheets Connector: A new native connector that pulls your OrcaSheets cloud data straight into the local app over Iceberg/Parquet, authenticated with JWT API credentials. It also does incremental sync out of the box, auto-detecting watermarks from your existing local Parquet files so you're not re-pulling what you already have.\n\n AWS Glue Connector - Incremental Column Fix: Epoch timestamp columns were being compared as raw numbers instead of proper datetimes, which meant incremental syncs across MSSQL, ClickHouse, and Snowflake were quietly missing or duplicating rows. Fixed. Incremental syncs that find zero new rows now skip cleanly instead of throwing an error.\n\n More Robust Chart Support: Charts are sturdier across the board, handling more edge cases without falling over.",
-  "pub_date": "2026-04-10T20:48:41.000Z",
+  "version": "26.4.2",
+  "notes": "Release version 26.4.2",
+  "pub_date": "2026-04-25T06:57:52.000Z",
   "platforms": {
     "darwin-x86_64": {
-      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVTcHorcGlmN1poMm1NbDJZaWRVVGlkTHFhUkxvY1dkWUlKQW9UZGhrVHhqV3YwQVR4bFo1Z255RWtuN2I5QnZ4YXk5VkRvcGxMVGVGd3pIVFNvb3loSDgzYTZSbXRwVmdnPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzc1ODU0MjA2CWZpbGU6T3JjYVNoZWV0c194ODZfNjQuYXBwLnRhci5negp6SDA2SnIxWVZlVWlpVUVDOUFLTE1XanZOWEdpTHNhTUpKTFJ6QmdkZGh1QXRsUjRQY2FiQUl3SDQvVzcwa2x4ZU9nd0JDTmFxYy9DZnczVE1JR0FDQT09Cg==",
+      "signature": "",
       "url": "https://github.com/dataorchestration/homebrew-orcasheets/releases/download/latest/OrcaSheets_x86_64.app.tar.gz"
     },
     "darwin-aarch64": {
-      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVTcHorcGlmN1poMnR4djNVcGFjQU1QNmFXOEVndWpwSTBiMWZ5eHZDYmFMZW01WnRna0czUkwvZDR0dnZKaGtOWjQvckVscTFKdzl6RXdPaE9PN1NMM3NvSks2anhFNkFBPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzc1ODU0MjMxCWZpbGU6T3JjYVNoZWV0c19hcm02NC5hcHAudGFyLmd6CjRKa01tY3FWNFU3RXY3bkljbVp1ZG4zdmNwL1dTYzUzR3BBVDNMVUFLWHAxOW9DYnJnaEpsclBROUxNVGFRdzBlc3hoSU1CV2ZtY2w5ck1jY1VEOEFBPT0K",
+      "signature": "",
       "url": "https://github.com/dataorchestration/homebrew-orcasheets/releases/download/latest/OrcaSheets_arm64.app.tar.gz"
     },
     "linux-x86_64": {
-      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVTcHorcGlmN1poMnFsdENvZkRSdTBqUVg2c0dtMTNKajZyWi9pdUs2YXNqNWwrakFTTkpzNldPMENadXgxSGpKR0RyU0hRZy91OU1yZHVOUk10c3NpMlJKYmE2WTIrc2drPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzc1ODUwODgzCWZpbGU6T3JjYVNoZWV0c18yNi40LjFfYW1kNjQuQXBwSW1hZ2UKT0RlQmFnQkp4eXRMQm1yTExOWGZZSzlrdVlEZ3pROWNzL080UHNINGxNODBYZU0yaG5pdVNXcUhUcEZ4MGpGT2VLZlQxTUV1d1ZBQURvNjJ4NlBSQUE9PQo=",
+      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVTcHorcGlmN1poMnJvNEVHRDJpYXFISHlJL3lyeUpBajZJZW9ZNnU5bjBPT2NFUFB5VXUvZDAxZGNYZ055NXpTaWRydWM2SkJOb2pMT2hGVjkzTFJyd2hTMVNMSGtGc1FVPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzc3MDk1NjU1CWZpbGU6T3JjYVNoZWV0c18yNi40LjJfYW1kNjQuQXBwSW1hZ2UKaUtLZGcweEI3Y091a3V0dlhWdEJoRmxQdUsydVpIQ1lBSVBIdEt5QytVaEMwTHpqZ3VtTFBMSEZoU256NCsvWFZLR2J6MUlJSnR6OUpKSnJBRXYzQnc9PQo=",
       "url": "https://github.com/dataorchestration/homebrew-orcasheets/releases/download/latest/orcasheets_latest_amd64.AppImage"
     },
     "windows-x86_64": {
-      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVTcHorcGlmN1poMnFmeTlzcUQ0NXdDTnNXeU9vVDZwMXpLK0ptZTZTV0lpN1JMeE9jTzNCNG9KcHFXQ1ZWQ0VtWnlRM2Y5STVoZ25UZHI4UWRCT1JmdkN0bUNLRnRmS2drPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzc1ODUzNjc4CWZpbGU6T3JjYVNoZWV0c18yNi40LjFfeDY0X2VuLVVTLm1zaS56aXAKczRIc2NRd0hMOGsrTmJGRkVNYkdyMmZMSGVUWXpPOEhRa0s0aEZTemJmSXpXTEZrS1VtT1Z1WkdGU2diOTg2RHk1Slc2K2dIQ2N5c3d0alZhTXYrQXc9PQo=",
+      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVTcHorcGlmN1poMnAzczhwbkNveFF5Q0tSVGljZkxCak8vQlhTWWt4S1pnSTEvN3dWdHlKTFhKcWl0Uy9VSlRRQWVCS3ZzNjhSS0dCZWl5UWZEblZrS1JtK1ZGNGtUS1FvPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzc3MDk3MTY0CWZpbGU6T3JjYVNoZWV0c18yNi40LjJfeDY0X2VuLVVTLm1zaS56aXAKT3NtZ25qZ3hSVWx3MW5mSHhaOVo0WHQvK0IyS21CY2J5NUNpTGpZd0JMdTZ5cGR4djRJUlc5eDYyckVzZzFGZjJlYVZCTnlzb0lUdERTQU5YaGgyQ2c9PQo=",
       "url": "https://windows-builds.orcasheets.io/latest/orcasheets_latest_x64-setup.msi.zip"
     }
   }
