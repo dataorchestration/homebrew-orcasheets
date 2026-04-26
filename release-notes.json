@@ -1,5 +1,111 @@
 [
   {
+    "version": "26.4.2",
+    "date": "April 25, 2026",
+    "sections": [
+      {
+        "title": "What's New",
+        "items": [
+          "Folder Sync & Multi-File Merge: Point OrcaSheets at an entire directory of data files (CSV, Excel, Parquet, TSV) and it automatically merges sheets that share the same schema into one unified sheet. Different schemas stay separate. Use the new Sync Project option to re-sync when files change or new ones appear.",
+          "Keyboard Shortcuts: New keyboard shortcuts for faster navigation — switching between tabs, opening files, and getting around the app. See Help → Keyboard Shortcuts for the full list.",
+          "Smarter AI Responses: OrcAI and AI-powered report generation produce more useful, accurate output."
+        ]
+      },
+      {
+        "title": "Fixes",
+        "items": [
+          "Better Pivot Query Handling: Query responses for PIVOT operations tightened up for more reliable results.",
+          "AWS Glue Connector - Hourly Partition Fix: Hourly partitioned tables now sync incrementally as expected."
+        ]
+      }
+    ]
+  },
+  {
+    "version": "26.4.1",
+    "date": "April 11, 2026",
+    "sections": [
+      {
+        "title": "What's New",
+        "items": [
+          "OrcaSheets Connector: A new native connector that pulls your OrcaSheets cloud data straight into the local app over Iceberg/Parquet, authenticated with JWT API credentials. Includes incremental sync out of the box, auto-detecting watermarks from existing local Parquet files.",
+          "More Robust Chart Support: Charts handle more edge cases without falling over."
+        ]
+      },
+      {
+        "title": "Fixes",
+        "items": [
+          "AWS Glue Connector - Incremental Column Fix: Epoch timestamp columns are now compared as proper datetimes instead of raw numbers, fixing incremental syncs across MSSQL, ClickHouse, and Snowflake. Incremental syncs with zero new rows now skip cleanly instead of throwing an error."
+        ]
+      }
+    ]
+  },
+  {
+    "version": "26.3.3",
+    "date": "March 30, 2026",
+    "sections": [
+      {
+        "title": "What's New",
+        "items": [
+          "Multi-Sheet Chat for Everyone: AI Chat now reads your whole workbook by default, not just the active sheet. Too many sheets? Hand-pick the ones that matter. Previously enterprise-only.",
+          "Faster Report Generation: Fixed unnecessary full HTML rebuilds on every report generation, improving load times.",
+          "Smarter Connector Re-sync: Re-sync now covers derived sheets alongside originals, and connector stats are back where they belong."
+        ]
+      }
+    ]
+  },
+  {
+    "version": "26.3.2",
+    "date": "March 26, 2026",
+    "sections": [
+      {
+        "title": "Fixes",
+        "items": [
+          "CSV Duplicate Columns: Fixed an error that occurred when importing CSV files with duplicate column names.",
+          "Excel Duplicate Row: Resolved an issue where importing any Excel file would generate an extra duplicate row.",
+          "SQL Connector Table Config: Fixed an issue where table configuration was being ignored for SQL connectors when uploading JSON config."
+        ]
+      }
+    ]
+  },
+  {
+    "version": "26.3.1",
+    "date": "March 14, 2026",
+    "sections": [
+      {
+        "title": "Improvements",
+        "items": [
+          "Faster OrcAI Responses: Improved performance of OrcAI with added retry logic for more reliable results, even under intermittent failures.",
+          "Database Connector Views: Added support for views across database connectors, so you can now query and work with views alongside tables.",
+          "Resizable Window: The application window is now freely resizable, giving you more control over your workspace layout."
+        ]
+      },
+      {
+        "title": "Fixes",
+        "items": [
+          "Postgres Connector Fix: Resolved a regression in the Postgres connector caused by sample connection configs interfering with active connections."
+        ]
+      }
+    ]
+  },
+  {
+    "version": "26.2.4",
+    "date": "February 28, 2026",
+    "sections": [
+      {
+        "title": "Improvements",
+        "items": [
+          "More Resilient CSV Import: CSV parsing now attempts a strict read first, then progressively falls back to less strict parsing when needed — improving compatibility with messy or inconsistent CSVs."
+        ]
+      },
+      {
+        "title": "Fixes",
+        "items": [
+          "Regression Fix: Restored support for creating an empty project, which could fail in certain cases after recent changes."
+        ]
+      }
+    ]
+  },
+  {
     "version": "26.2.3",
     "date": "February 27, 2026",
     "sections": [
