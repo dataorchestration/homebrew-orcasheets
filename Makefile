@@ -3,9 +3,9 @@ CURRENT_DATE := $(shell date +%Y-%m-%d)
 SHA_FILE := .sha256_sums
 VERSION_FILE := .version
 
-.PHONY: all prompt_version download_files calculate_checksums update_cask create_release upload_files update_latest update_metadata update_github clean build
+.PHONY: all prompt_version download_files calculate_checksums update_cask create_release upload_files update_latest update_metadata update_release_notes update_github clean build
 
-all: prompt_version download_files calculate_checksums update_cask create_release upload_files update_latest update_metadata update_github clean build
+all: prompt_version download_files calculate_checksums update_cask create_release upload_files update_latest update_metadata update_release_notes update_github clean build
 
 gitpull:
 	@echo "Pulling latest changes"
@@ -58,9 +58,13 @@ upload_files: create_releases
 	for file in ./tmp_builds/*/*; do \
 		gh release upload $$VERSION $$file; \
 		latest_file=$$(echo $$file | sed "s/$$VERSION/latest/"); \
-		cp $$file $$latest_file; \
-		gh release upload latest $$latest_file; \
-		rm $$latest_file; \
+		if [ "$$file" != "$$latest_file" ]; then \
+			cp $$file $$latest_file; \
+			gh release upload latest $$latest_file; \
+			rm $$latest_file; \
+		else \
+			gh release upload latest $$file; \
+		fi; \
 	done
 
 update_latest: upload_files
@@ -71,9 +75,11 @@ update_latest: upload_files
 update_metadata: update_latest
 	@echo "Updating metadata file..."
 	@source $(VERSION_FILE); \
-	read -p "Enter release notes (press Enter for default): " NOTES; \
+	read -rp "Enter release notes (press Enter for default): " NOTES; \
 	if [ -z "$$NOTES" ]; then \
 		NOTES="Release version $$VERSION"; \
+	else \
+		NOTES=$$(printf '%b' "$$NOTES"); \
 	fi; \
 	PUB_DATE=$$(date -u +"%Y-%m-%dT%H:%M:%S.000Z"); \
 	echo "Reading signature files..."; \
@@ -107,10 +113,27 @@ update_metadata: update_latest
 	   updated-metadata.json > updated-metadata.json.tmp && mv updated-metadata.json.tmp updated-metadata.json; \
 	echo "Metadata file updated successfully"
 
-update_github: update_metadata
+update_release_notes: update_metadata
+	@echo "Updating release-notes.json..."
+	@source $(VERSION_FILE); \
+	RELEASE_DATE=$$(date +"%B %-d, %Y"); \
+	echo "Enter release notes JSON sections array (e.g., [{\"title\":\"What's New\",\"items\":[\"Feature 1\"]}]):"; \
+	read -r SECTIONS_JSON; \
+	if [ -n "$$SECTIONS_JSON" ]; then \
+		jq --arg version "$$VERSION" \
+		   --arg date "$$RELEASE_DATE" \
+		   --argjson sections "$$SECTIONS_JSON" \
+		   '[{"version": $$version, "date": $$date, "sections": $$sections}] + .' \
+		   release-notes.json > release-notes.json.tmp && mv release-notes.json.tmp release-notes.json; \
+		echo "release-notes.json updated successfully"; \
+	else \
+		echo "No sections provided, skipping release-notes.json update"; \
+	fi
+
+update_github: update_release_notes
 	@echo "Updating GitHub..."
 	@source $(VERSION_FILE); \
-	git add Casks/orcasheets.rb updated-metadata.json; \
+	git add Casks/orcasheets.rb updated-metadata.json release-notes.json; \
 	git commit -m "Update OrcaSheets Cask file and metadata for version $$VERSION"; \
 	git push
 
