@@ -1,5 +1,25 @@
 [
   {
+    "version": "26.4.3",
+    "date": "April 30, 2026",
+    "sections": [
+      {
+        "title": "What's New",
+        "items": [
+          "Redesigned Onboarding: The onboarding experience has been completely revamped with clearer messaging, better guidelines, and smoother navigation to help new users get up and running faster.",
+          "Smarter AI Visualizations: AI-powered visualizations now have more context to work with, resulting in noticeably better performance and more relevant chart output.",
+          "View/Edit Recipe: You can now view and edit recipes — a first step towards the full recipe framework, giving you more visibility and control over your data transformation steps."
+        ]
+      },
+      {
+        "title": "Fixes",
+        "items": [
+          "S3 Multipart Download Fix: S3 multipart downloads could fail silently and leave corrupted files on disk. Downloads now complete reliably."
+        ]
+      }
+    ]
+  },
+  {
     "version": "26.4.2",
     "date": "April 25, 2026",
     "sections": [
@@ -203,13 +223,25 @@
           "Styling fixes for published chart and dashboard."
         ]
       },
-      { "title": "", "items": ["Based on your feedback! Thanks for helping us improve."] }
+      {
+        "title": "",
+        "items": [
+          "Based on your feedback! Thanks for helping us improve."
+        ]
+      }
     ]
   },
   {
     "version": "26.1.2",
     "date": "January 2, 2026",
-    "sections": [{ "title": "", "items": ["Release version 26.1.2"] }]
+    "sections": [
+      {
+        "title": "",
+        "items": [
+          "Release version 26.1.2"
+        ]
+      }
+    ]
   },
   {
     "version": "26.1.1",
@@ -222,7 +254,12 @@
           "Auto Updater — Updates happen automatically; no more manual \"Download the latest version\" messages."
         ]
       },
-      { "title": "", "items": ["Enjoy the smoother experience!"] }
+      {
+        "title": "",
+        "items": [
+          "Enjoy the smoother experience!"
+        ]
+      }
     ]
   },
   {
@@ -253,7 +290,9 @@
       },
       {
         "title": "Reliability",
-        "items": ["Soft-Fail Widgets — Failed widgets show a non-blocking error with Retry; other content keeps loading."]
+        "items": [
+          "Soft-Fail Widgets — Failed widgets show a non-blocking error with Retry; other content keeps loading."
+        ]
       },
       {
         "title": "Design & Accessibility",
