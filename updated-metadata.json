@@ -16,7 +16,7 @@
       "url": "https://github.com/dataorchestration/homebrew-orcasheets/releases/download/latest/orcasheets_latest_amd64.AppImage"
     },
     "windows-x86_64": {
-      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVTcHorcGlmN1poMnI2UFBlYm9Fb3JxN2Y3VGhnd1dMekRYWkt2ZFIrNHF6bDh1dWg4aTNRZTdkaGpzcVV1WXY2dUNva05EM0VSU0dnSE9CdHUrWENvZlZZdkNHclQ0U0F3PQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzc3NDk2ODI0CWZpbGU6T3JjYVNoZWV0c18yNi40LjNfeDY0X2VuLVVTLm1zaS56aXAKUkZHRUxHUkltYXlLdUluVnhCY1BRMVFYeUdEaUhnc1FzVlFjTkRVUVdoSGpPNjBKUUFVQ2IrWmRJU1dxRE5aVHQxTWhUQnd3c0RiOFQvWlJveGlPRHc9PQo=",
+      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVTcHorcGlmN1poMnFaWjRLaE4wRThzcnl3QU1yRktDTWhjVCtVaCt0bXhidkN5NzNDUVF5RVI2SmExOEx4MFA4bmREOGNkZzE2L0hjRWw5aWExbFRGRG5lWFdDWmllSWc0PQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzc3NTU4NTkwCWZpbGU6T3JjYVNoZWV0c18yNi40LjNfeDY0X2VuLVVTLm1zaS56aXAKTDBLS0J4QkFtUERGU3U0WU1hWmI3RytWU2lFSTVvRWtuQmdaZzA5UDNVMDBLeWQ4bmNoTlNURmlsVlNxbFp5VjVFOE41U1B1dHo1QVQ4UlVhanl4Q1E9PQo=",
       "url": "https://windows-builds.orcasheets.io/latest/orcasheets_latest_x64-setup.msi.zip"
     }
   }
