@@ -1,6 +1,6 @@
 {
   "version": "26.4.3",
-  "notes": "\"\n\n Redesigned Onboarding: The onboarding experience has been completely revamped with clearer messaging, better guidelines, and smoother navigation to help new users get up and running faster.\n\n Smarter AI Visualizations: AI-powered visualizations now have more context to work with, resulting in noticeably better performance and more relevant chart output.\n\n View/Edit Recipe: You can now view and edit recipes — a first step towards the full recipe framework, giving you more visibility and control over your data transformation steps.\n\n S3 Multipart Download Fix: Fixed a bug where S3 multipart downloads could fail silently and leave corrupted files on disk. Downloads now complete reliably.\"",
+  "notes": "\n\n Redesigned Onboarding: The onboarding experience has been completely revamped with clearer messaging, better guidelines, and smoother navigation to help new users get up and running faster.\n\n Smarter AI Visualizations: AI-powered visualizations now have more context to work with, resulting in noticeably better performance and more relevant chart output.\n\n View/Edit Recipe: You can now view and edit recipes — a first step towards the full recipe framework, giving you more visibility and control over your data transformation steps.\n\n S3 Multipart Download Fix: Fixed a bug where S3 multipart downloads could fail silently and leave corrupted files on disk. Downloads now complete reliably.",
   "pub_date": "2026-04-29T21:51:12.000Z",
   "platforms": {
     "darwin-x86_64": {
