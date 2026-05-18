@@ -1,6 +1,6 @@
 {
   "version": "26.5.1",
-  "notes": "\"\n\n Project Settings: A new project-level settings panel lets you view project details, customize how your data looks — header and row background colors — configure formatting for numbers, dates, and timezones, and delete projects. All in one place.\n\n Dashboard Enhancements: You can now edit chart titles and quickly remove charts directly from the dashboard without leaving the view. Also fixed CSS issues that were breaking the UI when building dashboards with a large number of charts.\"",
+  "notes": "\n\n Project Settings: A new project-level settings panel lets you view project details, customize how your data looks — header and row background colors — configure formatting for numbers, dates, and timezones, and delete projects. All in one place.\n\n Dashboard Enhancements: You can now edit chart titles and quickly remove charts directly from the dashboard without leaving the view. Also fixed CSS issues that were breaking the UI when building dashboards with a large number of charts.",
   "pub_date": "2026-05-18T12:27:16.000Z",
   "platforms": {
     "darwin-x86_64": {
