@@ -1,5 +1,18 @@
 [
   {
+    "version": "26.5.1",
+    "date": "May 18, 2026",
+    "sections": [
+      {
+        "title": "What's New",
+        "items": [
+          "Project Settings: A new project-level settings panel lets you view project details, customize data appearance (header and row background colors), configure formatting for numbers, dates, and timezones, and delete projects — all in one place.",
+          "Dashboard Enhancements: Edit chart titles and quickly remove charts directly from the dashboard. Also fixed CSS issues that broke the UI when building dashboards with a large number of charts."
+        ]
+      }
+    ]
+  },
+  {
     "version": "26.4.3",
     "date": "April 30, 2026",
     "sections": [
