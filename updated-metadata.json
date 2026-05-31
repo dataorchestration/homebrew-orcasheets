@@ -1,22 +1,22 @@
 {
-  "version": "26.5.1",
-  "notes": "\n\n Project Settings: A new project-level settings panel lets you view project details, customize how your data looks — header and row background colors — configure formatting for numbers, dates, and timezones, and delete projects. All in one place.\n\n Dashboard Enhancements: You can now edit chart titles and quickly remove charts directly from the dashboard without leaving the view. Also fixed CSS issues that were breaking the UI when building dashboards with a large number of charts.",
-  "pub_date": "2026-05-18T12:27:16.000Z",
+  "version": "26.5.2",
+  "notes": "\n\n Offline Recipe Browser: Recipes you've browsed before now load instantly — even when you're offline or on a flaky connection. No more staring at an empty list. A manual refresh button lets you pull the latest from the cloud whenever you're ready.\n\n Recipe Re-run: You can now re-run any previous recipe execution directly from the run info modal. Your original parameters are pre-filled and editable, so you can tweak inputs and re-run with a single click — no need to set everything up from scratch. Progress is tracked in the background just like the first run.\n\n Recipe Run History: Every recipe execution is now tracked with its parameters, status, and timing. This powers the re-run feature and gives you a clear record of what ran, when, and with what inputs.\n\n Recipe Run Deletion: Deleting a r",
+  "pub_date": "2026-05-31T20:26:18.000Z",
   "platforms": {
     "darwin-x86_64": {
-      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVTcHorcGlmN1poMnZpUVlwKytlVy9UcjlmV0c1dVZBUnVXV1d2dTNDTDNNaWJzYzFtUko4YUpxZ0ZITDJLZFRrbUd1RVVLQWgxTUM0bkhSbHJXTVIxUFpPTTlJd3h5bnc4PQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzc5MDg2ODcxCWZpbGU6T3JjYVNoZWV0c194ODZfNjQuYXBwLnRhci5negoxOTFaQ3VMQUZZaVZpK3I0S0p6c2Q3RXUyNDdhVjVIUHNnUitpVytuTEgraExaOWtkem84bHdlYjdtMk1CdzBpbkNjVkNvLy9HUDllU0h3eXJBWDFCQT09Cg==",
+      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVTcHorcGlmN1poMnZwamtwc25aZ2RGL2MzbjMwU2YybVJ0Qk9xZFJxMmt0T2F1UW11SU4wSUs1UUNKZU11TU1oZzBUT0dnaXdoeWh4STVVbFY5ZmJWMkxhcmlYVW9VS1EwPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzgwMjU4MDgwCWZpbGU6T3JjYVNoZWV0c194ODZfNjQuYXBwLnRhci5negovdnowdDM3NzZQQTl3WWZ2emRPcXAzNXpSbHhJd3R5ZzFTMU81dmN6NTE5L1Q1c3NORDlFN3Jib2Q0OTZmZEg1dXpBSE5aT0RFVHM5UG12ZTQvTG1EQT09Cg==",
       "url": "https://github.com/dataorchestration/homebrew-orcasheets/releases/download/latest/OrcaSheets_x86_64.app.tar.gz"
     },
     "darwin-aarch64": {
-      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVTcHorcGlmN1poMm9BdU44SUZLczZscE9WcVB5WUJ4a096NEtEL2dYWHJJMGZDMG51SmtFUDMyT1JjUEJqNGRkYnVUOFlaVlVNRW5RLzBMbXFjRnB0QVY1NnpWSVJSMmdZPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzc5MDgyODQ4CWZpbGU6T3JjYVNoZWV0c19hcm02NC5hcHAudGFyLmd6CjlFamgzZlRsR3RUWjFRUDNOYTdsbVlGR3ljTUp0cW9zQjNqZlRvTW5UMElqZUJTYnR5SXBsRFl2cDg3NGgyb09uUjRQMEU4WG41MDBwdWI1L3BjNEJnPT0K",
+      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVTcHorcGlmN1poMnAvOC9XdG51Wk5mR3ZieEMwZXlPYWdyZHJwU1g0K010NWUycGYxcXV2UmZoTFFRa0t2dUprMUVEaGpvWmYvWUVFWUVKc0hJUGdTb1dlbTRoeFRBL1FjPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzgwMjU3MjM5CWZpbGU6T3JjYVNoZWV0c19hcm02NC5hcHAudGFyLmd6CitCa1VEQlJFOHhvTy81Q0M3MUNOelN1dXlObFpXNFVKSklxeGFBbGpZVStCNGJjcitpK0R1KzNJWFFBSTVad3o4RFIyOVZvcnJzNUJoVGpZUlpSeUJnPT0K",
       "url": "https://github.com/dataorchestration/homebrew-orcasheets/releases/download/latest/OrcaSheets_arm64.app.tar.gz"
     },
     "linux-x86_64": {
-      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVTcHorcGlmN1poMm4zRGdzb0RJcVRJRk91aGp0WU4vdWhrNG5Kejg2akt5OTV0b3BxbGx3UVFGNW80Qm5RVUFFeFEzQ1MzU04rK045MTN1eUo5Y2oyMFd6cGRicmFEeEFjPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzc5MDgyNzA3CWZpbGU6T3JjYVNoZWV0c18yNi41LjFfYW1kNjQuQXBwSW1hZ2UKZnEra0VwRjRTMk9Rc2RIYnVkS2paWnE2N1JrbkFTSUt6RnBDcFFjZ243ZVdmazFPOTBNZGtqYi9qQmd2Sm9QNGRyK2RGdmpqMko0U29sODU1NXIzQ1E9PQo=",
+      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVTcHorcGlmN1poMmh5Zk9RbGdxODZVQlVaeE9Jc3lsNy8waGR1UlF3V2lOZUQ4ZEdkZFYzcEdUVURNQVhWZzE5RmNVVU5KanRkUW54ZHI1ZVo1YXN3VlpPYmlQTHlWUndBPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzgwMjU3MTU5CWZpbGU6T3JjYVNoZWV0c18yNi41LjJfYW1kNjQuQXBwSW1hZ2UKOC9PemdnUnVObWZJUGJ1c3FaWlpxblpDVVZOVWxHQVVKTHRVQ1lGeWJHQXFBNGtZZHVYMk0zNkE2aS9WTEJiZFk2M0NhUzhuRXBhSjlpcmxSSEQvQWc9PQo=",
       "url": "https://github.com/dataorchestration/homebrew-orcasheets/releases/download/latest/orcasheets_latest_amd64.AppImage"
     },
     "windows-x86_64": {
-      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVTcHorcGlmN1poMmxoZHNvc3luOHVaTlZGbFNxTmQzcXhwM2t4YXU1dDdKRDhnS0ErY1VoSUVPcmpJaks0WVpMSXpuYmkvbzJyUnIzNnQwbHJjbDgrK2pUTmJiL1EraEFFPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzc5MDg2MTE0CWZpbGU6T3JjYVNoZWV0c18yNi41LjFfeDY0X2VuLVVTLm1zaS56aXAKOE1OUEFHVm5yK1IxVmsxeU1XeUtsTE4yakdmblhUb2JKV3VDNFdlVVNpS0pSSUxrRkY2ZTlJd0xlYWpXQnZ0eCtPS1NZRXZLQUlGb1ArdGtSL0pCQ0E9PQo=",
+      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVTcHorcGlmN1poMmliM0F6MExuNXNVczArMkU4NVd0a1RxT0FReHZId0JKRE5UcmROR3UyTU1nbGtjSWRzVnlDRmVBZVo2RGdYdEhadDhkenc2ZW9KVStkUlNKRG9Vd3dnPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzgwMjU4MzkwCWZpbGU6T3JjYVNoZWV0c18yNi41LjJfeDY0X2VuLVVTLm1zaS56aXAKWUZHK1dHRHZoRUc4ajFUcXRnVmVLNjZ4eURCbk83VFdOc1ZHSVNuSmtmOU9Jbm1TYzJzZnp5ZTVPdHhueVU0dFRNSjlKbFlrYVRUbkYvNmFPWkt3Qmc9PQo=",
       "url": "https://windows-builds.orcasheets.io/latest/orcasheets_latest_x64-setup.msi.zip"
     }
   }
