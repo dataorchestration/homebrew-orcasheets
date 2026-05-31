@@ -1,5 +1,24 @@
 [
   {
+    "version": "26.5.2",
+    "date": "May 31, 2026",
+    "sections": [
+      {
+        "title": "What's New",
+        "items": [
+          "Offline Recipe Browser: Recipes you've browsed before now load instantly — even when you're offline or on a flaky connection. No more empty lists. A manual refresh button lets you pull the latest from the cloud whenever you're ready.","Recipe Re-run: Re-run any previous recipe execution directly from the run info modal. Your original parameters are pre-filled and editable, so you can tweak inputs and re-run with a single click — no need to set everything up from scratch.","Recipe Run History: Every recipe execution is now tracked with its parameters, status, and timing — giving you a clear record of what ran, when, and with what inputs.","Recipe Run Deletion: Deleting a recipe run now does a thorough cleanup — all generated sheets, charts, and dashboards from that run are removed, and any charts pinned to your own dashboards are cleaned up gracefully instead of leaving broken placeholders."
+        ]
+      },
+      {
+        "title": "Fixes",
+        "items":[
+          "Fixed internal data-handling issues that could cause recipe run timestamps to display incorrectly or recipe deletions to silently fail.",
+          "Older recipes that were missing certain identifiers no longer produce duplicate outputs when re-run."
+        ]
+      }
+    ]
+  },
+  {
     "version": "26.5.1",
     "date": "May 18, 2026",
     "sections": [
