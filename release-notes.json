@@ -1,5 +1,19 @@
 [
   {
+    "version": "26.6.1",
+    "date": "June 9 , 2026",
+    "sections": [
+      {
+        "title": "What's New",
+        "items": [
+          "Recipe Generator: Create recipes right inside OrcaSheets. A guided multi-step dialog walks you through selecting source sheets, describing your analysis goal, and setting preferences. AI generates a complete recipe structure from your sheet metadata, then every SQL step is validated locally against your actual data using DuckDB — so you know what works before anything runs. Results appear as an interactive flowchart with dependency graphs, pass/fail indicators, and expandable steps. If something's off, describe changes in plain language to regenerate and re-validate. Once everything passes, publish it for review.",
+          "Recipe Flowchart Visualization: Generated recipes are displayed as a visual dependency graph — each step is an expandable card showing its validation status, output type (sheet, aggregation, visualization, dashboard), and how it connects to other steps. Color-coded borders show pass, fail, or validating status, and failed steps auto-expand for immediate error visibility.",
+          "Recipe Runs Hub: A new Runs tab in RecipeHub for monitoring all recipe executions in your project. Running jobs appear at the top with live progress bars. Completed, failed, and partially-succeeded runs are listed with status indicators, timestamps, and duration. Click any run to view details, re-run with previous parameters, or delete it with full artifact cleanup. Closing an active recipe now navigates to the Runs tab instead of the recipe grid."
+        ]
+      }
+    ]
+  },
+  {
     "version": "26.5.2",
     "date": "May 31, 2026",
     "sections": [
