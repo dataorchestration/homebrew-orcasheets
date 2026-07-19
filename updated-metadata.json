@@ -1,22 +1,22 @@
 {
-  "version": "26.6.2",
-  "notes": "\n\n Pivot Query Validation Fix: Pivot queries that were being incorrectly rejected by validation now work as expected.\n\n Recipe Visibility Fix: Recipes assigned to your account weren't showing up in the UI — fixed, they now appear as they should.\n\n Parquet Overwrite Fix: Overwriting existing data using a Parquet file was failing silently. Fixed — data overwrites via Parquet now complete reliably.",
-  "pub_date": "2026-06-19T06:28:13.000Z",
+  "version": "26.7.1",
+  "notes": "Release version 26.7.1",
+  "pub_date": "2026-07-19T17:59:02.000Z",
   "platforms": {
     "darwin-x86_64": {
-      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVTcHorcGlmN1poMmh2K3JHUTU2VWxKOWJobW9LM3hkQVdIbEZROTllWWdMVjdubnordktpWWNhSmV1VkpNKzlwSjBYOHdSWTFob2tweC94VGx6by9QdHhzdEUxYXJDTmdVPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzgxODQ4OTU0CWZpbGU6T3JjYVNoZWV0c194ODZfNjQuYXBwLnRhci5negpWcCtMV1l0RU1nZGFVN3Jid2tMZFdiYW0rK01sM0dWSXh6aGFHTlkvcG1TS0NTeE83QXBVWXdXdzVlaUlWMWlwNVRsMlRlZDYwc01IZGtGNlpxQkNBdz09Cg==",
+      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVTcHorcGlmN1poMm9FSlBVcDM1R1NSTEt3VnhaU01sSnVWT0VZc3VkY0NDOVZtdkNvM0Q3VDRoWWtZNEJ1R2VLK2NKMWo2dFpFWHV5UEFjQUxLMUpJY2k3VTh1b053NEE4PQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzg0NDUyMTY5CWZpbGU6T3JjYVNoZWV0c194ODZfNjQuYXBwLnRhci5negpheTdzTzRwdzk3N0o1NHFrNEV3MWd2V1JWUExscXU1ODZrVVdVR000ajlyT3V3S1JYcWxYNXhtdGFRTTRDbCtQNUpvZmFnbTlMOXBFamY2UzVjRTRDdz09Cg==",
       "url": "https://github.com/dataorchestration/homebrew-orcasheets/releases/download/latest/OrcaSheets_x86_64.app.tar.gz"
     },
     "darwin-aarch64": {
-      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVTcHorcGlmN1poMmc3VzI4RHJPc28zYnpQcUxibDlzalo5WUQxSG8yZnNNWk14QXZuQVp5TFVqcS80MnFGOGp6eWI5eVcvZGppVFJmbEcyS2N6b3VKYzdkMlBWcXRzaUFjPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzgxODQ4NTM4CWZpbGU6T3JjYVNoZWV0c19hcm02NC5hcHAudGFyLmd6Ck5tM3lycElDV0lPOXVXanQwekx1SE9lcFhURjNtOWp2dGsvMW5zZmtRZDE2UXFER3Zwd0pWbW83ZytJMjI4NmVqZEdPQ1Q4ZHZBNmNlZEdPNW1iYUFBPT0K",
+      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVTcHorcGlmN1poMnBmSXNMTFRXNnVFQ0x5dlBucXNrSFVnNkIyeUZ1WkpxU3dhRWZHWUg0TWZEbXJLWHhNanB6SFVpUStMdS9yVkM2SktqbnVxSHluUGZIcXRlVTNuTHdrPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzg0NDYzNzYzCWZpbGU6T3JjYVNoZWV0c19hcm02NC5hcHAudGFyLmd6Ck5vOTRIZ01SRG1UM2RXZi8wR3JHSG9DdTRwNnFsTUpVa0xvNkJSRWVEQnQwdFBINWlmK0hadkpVaERCNFY4TEwxZUcyL2FwNWJtVERadHFFelRZdEJnPT0K",
       "url": "https://github.com/dataorchestration/homebrew-orcasheets/releases/download/latest/OrcaSheets_arm64.app.tar.gz"
     },
     "linux-x86_64": {
-      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVTcHorcGlmN1poMm9zZkllWVpweUVReVl1VXVxZy9zWW11VkcxK3NBVXVqVUJIaVA0azVGRTlLeXZPUVpzT1hBbHN2aUNkNG5iVHJ0Y2JZNkNFb3hRWW1HLzR5Z0w4aWdjPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzgxODQ4ODAwCWZpbGU6T3JjYVNoZWV0c18yNi42LjJfYW1kNjQuQXBwSW1hZ2UKRXZIcmhaNFJYZ01JUWRScVlWTWhFckNzdVNRc1ZPc09vNEZIR3E3S1hYdGRsblR4V3VlSE1lZG9EdTNJMkhTUmZ3aDJ2ay9nU1A2YVN1ZmhJV1NMRHc9PQo=",
+      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVTcHorcGlmN1poMnJqZHlWS2Ywa0NBSkY0RGFLTXEwSHEwdGRFVDg2WFNwV3I0Yjh3b2VEcTV5eHdTN082RkVHOUFoNFpyT3J0TmtPNW9RL2RvWXZ4YnRPMlhuRVp4YUFJPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzg0NDgyMTY0CWZpbGU6T3JjYVNoZWV0c18yNi43LjFfYW1kNjQuQXBwSW1hZ2UKTExRSVV1ejBQVURxbVRVTWhhUkJPQ2JyUDJCTmNZb2Q3SG92UlVQNjBQUmtOQzJqeUVZQnpBWFpJVW51cTBtWG8zbXc1S3YyZTV5WWNlaUwrWU53QkE9PQo=",
       "url": "https://github.com/dataorchestration/homebrew-orcasheets/releases/download/latest/orcasheets_latest_amd64.AppImage"
     },
     "windows-x86_64": {
-      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVTcHorcGlmN1poMmw0Yzl0MnJaTktYZFZEYUl6dStubWN0cVFtYzRZK0dZZ0NKUW91R1VqMHoyN1RnYmhJNWwwcXVWZHFsSEc5TFRTY1lHVVV0QXJxSU93ZDdlWlVSMUFRPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzgxODQ5MzIyCWZpbGU6T3JjYVNoZWV0c18yNi42LjJfeDY0X2VuLVVTLm1zaS56aXAKUk5CVHd2NmVRUzFMSFBWRGxTSTZVTXc2ZmJhNGZ4a3JibWYxdHR0Zkw4NHdJNURkYjFqaWxvbmZRV0krRHNLYXdHTGh6b1RCN2h2Q3YrVWZtMTQ5RGc9PQo=",
+      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVTcHorcGlmN1poMnRuU05CNXJ6VTE0a3pTNWYzdytUcG4rZnB4dEVrNzVRVXowTUNnRmI3SUtEczZzVWFWd253cElQVHVKc1p5cDZQSVcvM1BNdzVkNFViVjNTb1FsVmdNPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzg0NDgyMzQyCWZpbGU6T3JjYVNoZWV0c18yNi43LjFfeDY0X2VuLVVTLm1zaS56aXAKYmNJT1dpck8wYWhzZm9RRjFaczZoUHFWV05xeGdBQTFTU211dWdUVzBOc1FHVk9xNTZYdmVIVXZNZzEzdFhpRHVLSWtvU2s3Zk81QUJJdU5wOHY3QkE9PQo=",
       "url": "https://windows-builds.orcasheets.io/latest/orcasheets_latest_x64-setup.msi.zip"
     }
   }
