@@ -1,6 +1,6 @@
 {
   "version": "26.7.1",
-  "notes": "Release version 26.7.1",
+  "notes": "\n\n In-App Notifications: Updates like this one now appear right inside the app, so you'll always know what's new.\n\n Manage Your Subscription: Pick, upgrade, or change your plan anytime from settings. You can also see how much you've used the AI models.\n\n Use Your Data Sources in Recipes: Recipes can now pull directly from your connected data sources. No exporting and uploading files first.\n\n Smarter CSV Handling: CSV files with extra header text at the top now load correctly, without any cleanup on your part.\n\n Easier Getting Started: A new step-by-step onboarding walks you through setup.\n\n 4 New Connectors: Connect to AWS Athena, Google Sheets, Shopify, and Stripe.\n\n Find Recipes Faster: Press Cmd/Ctrl+K to search and run any recipe from anywhere in the app.\n\n Release History: Click the version number in the footer to see what changed in this version or any past one.\n\n Faster Performance: Data transformations now run noticeably quicker.",
   "pub_date": "2026-07-19T17:59:02.000Z",
   "platforms": {
     "darwin-x86_64": {

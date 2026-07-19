@@ -1,5 +1,25 @@
 [
   {
+    "version": "26.7.1",
+    "date": "July 19, 2026",
+    "sections": [
+      {
+        "title": "What's New",
+        "items": [
+          "In-App Notifications: Updates like this one now appear right inside the app, so you'll always know what's new.",
+          "Manage Your Subscription: Pick, upgrade, or change your plan anytime from settings. You can also see how much you've used the AI models.",
+          "Use Your Data Sources in Recipes: Recipes can now pull directly from your connected data sources. No exporting and uploading files first.",
+          "Smarter CSV Handling: CSV files with extra header text at the top now load correctly, without any cleanup on your part.",
+          "Easier Getting Started: A new step-by-step onboarding walks you through setup.",
+          "4 New Connectors: Connect to AWS Athena, Google Sheets, Shopify, and Stripe.",
+          "Find Recipes Faster: Press Cmd/Ctrl+K to search and run any recipe from anywhere in the app.",
+          "Release History: Click the version number in the footer to see what changed in this version or any past one.",
+          "Faster Performance: Data transformations now run noticeably quicker."
+        ]
+      }
+    ]
+  },
+  {
     "version": "26.6.2",
     "date": "June 19, 2026",
     "sections": [
