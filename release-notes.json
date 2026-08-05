@@ -1,5 +1,26 @@
 [
   {
+    "version": "26.8.1",
+    "date": "August 5, 2026",
+    "sections": [
+      {
+        "title": "What's New",
+        "items": [
+          "Shared Projects Sync: Shared projects now fetch in real time, so you're always seeing the latest version. The app also tracks when each shared project was last synced, so you know exactly how current your data is."
+        ]
+      },
+      {
+        "title": "Fixes",
+        "items": [
+          "Connector Fixes: Default ports for database connectors were incorrect in some cases. Filters during incremental data loads are now handled properly. Some Google Sheets configuration options have been moved to the Advanced section to keep the main setup cleaner.",
+          "More Robust CSV Import: CSV files with empty columns, special characters in headers, and other common quirks now import cleanly without manual cleanup.",
+          "Windows Project Sync Fix: Syncing a project on Windows was creating duplicate data files — syncs now produce a single clean copy as expected.",
+          "Recipe Run Delete Fix: Deleting a recipe run was throwing errors in certain cases. Cleanup now completes reliably."
+        ]
+      }
+    ]
+  },
+  {
     "version": "26.7.1",
     "date": "July 19, 2026",
     "sections": [
