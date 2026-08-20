@@ -1,5 +1,27 @@
 [
   {
+    "version": "26.8.2",
+    "date": "August 21, 2026",
+    "sections": [
+      {
+        "title": "What's New",
+        "items": [
+          "Download Dashboard as PDF: Export any dashboard as a PDF — great for sharing reports with people who don't have access to the app.",
+          "Update Existing Connections: No need to delete and recreate a connection when something changes. You can now edit and update an existing connection's configuration directly."
+        ]
+      },
+      {
+        "title": "Fixes",
+        "items": [
+          "DB Connector Fixes: Authentication checks now include all config flags, PostgreSQL enum types are handled correctly, MSSQL syncs no longer break due to credential encoding issues, and table names with spaces work as expected.",
+          "API Connector Fixes: GET request query parameters are now properly encoded, and the API connector view no longer breaks when loading.",
+          "Recipe Connector & Dashboard Support: Recipes now correctly support connector configurations and dashboard layout settings, so recipe-generated dashboards render as intended.",
+          "Global Search Fix: Selecting a recipe from global search now properly opens its configuration."
+        ]
+      }
+    ]
+  },
+  {
     "version": "26.8.1",
     "date": "August 5, 2026",
     "sections": [
