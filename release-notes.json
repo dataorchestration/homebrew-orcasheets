@@ -1,5 +1,19 @@
 [
   {
+    "version": "26.9.1",
+    "date": "September 2, 2026",
+    "sections": [
+      {
+        "title": "Fixes",
+        "items": [
+          "MSSQL Legacy Collation Fix: Columns using older MSSQL collation types that were returning garbled or unreadable data are now decoded correctly.",
+          "MariaDB & ClickHouse Connector Fixes: Fixed a crash when syncing from MariaDB and a data decoding issue with nullable columns in ClickHouse.",
+          "S3 Sync — CSV & TSV Support: S3 sync was only picking up Parquet files and skipping CSV and TSV files in your bucket. All supported file types are now ingested during sync."
+        ]
+      }
+    ]
+  },
+  {
     "version": "26.8.2",
     "date": "August 21, 2026",
     "sections": [
