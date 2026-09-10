@@ -1,22 +1,22 @@
 {
-  "version": "26.9.1",
-  "notes": "\n\n MSSQL Legacy Collation Fix: Columns using older MSSQL collation types that were returning garbled or unreadable data are now decoded correctly.\n\n MariaDB & ClickHouse Connector Fixes: Fixed a crash when syncing from MariaDB and a data decoding issue with nullable columns in ClickHouse.\n\n S3 Sync — CSV & TSV Support: S3 sync was only picking up Parquet files and skipping CSV and TSV files in your bucket. Fixed — all supported file types are now ingested during sync.",
-  "pub_date": "2026-09-01T20:54:44.000Z",
+  "version": "26.9.2",
+  "notes": "\n\n Column Management: You can now rename columns and reorder them however you like — giving you full control over how your data is structured and displayed.\n\n Background Process Indicator: Active background processes now show in the footer, so you always know when something is running without having to check elsewhere.\n\n Project Preview: See what's inside a project before opening it. The project selection screen now shows a preview of the project's contents, helping you pick the right one faster.\n\n Device Health Check Fix: Added device-level diagnostics to the initialization flow, making it easier to troubleshoot login and authentication issues.\n\n S3 Sync Fixes: Column statistics are now properly stored for S3-synced data, and synced files correctly appear as tabs in the sidebar instead of being silently skipped.\n\n Google Sheets Tab Recovery: If a pinned Google Sheet gets renamed at the source, OrcaSheets now recovers the tab automatically instead of losing track of it.",
+  "pub_date": "2026-09-10T21:39:29.000Z",
   "platforms": {
     "darwin-x86_64": {
-      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVTcHorcGlmN1poMmpzVXJZUUVkQjZ3eDhrMlJsa3NVa3lqRTRGZTRCSFY5RkJyeEMxR2xxSytPRUFic3lFMjlVTm4xRzBua056WWhnWXBwTURTZlZnaUNpU1QwYWdCcFE0PQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzg4Mjk0OTQ0CWZpbGU6T3JjYVNoZWV0c194ODZfNjQuYXBwLnRhci5negpuQUpHUEVlanlSUFVVWkQ0b1Uxd2tML0M4MjVzdmdGeGRIaUtmbEM1NjFxSjI5M1piNFlyWEg3KzFIMnR5bG9jT0dqQldXVjhwY1dQTjhheC9TeDhDUT09Cg==",
+      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVTcHorcGlmN1poMnFJbVcxRlBlMEFNTFFyVTFnak9pN0pZNVJsdlYyTzF2N1lQVW5vYTI0WjBGZmZGWUhWUHl6M01MSWh5bmdsMklWT2hPd1Zjc2UwMWFvZjhjNkkwR3dnPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzg5MDcyMDY1CWZpbGU6T3JjYVNoZWV0c194ODZfNjQuYXBwLnRhci5negpGaHVEVzIwRm9Ja1NWK2tqdnd5QVp0VmhpK0tJSk9TTkM0OUI5ZDdDMEdrWmhnSm9keWhrRzNQWmpucnk4c0k2TVIvdy9YSW5wL09GS3Fyd25NV1BEZz09Cg==",
       "url": "https://github.com/dataorchestration/homebrew-orcasheets/releases/download/latest/OrcaSheets_x86_64.app.tar.gz"
     },
     "darwin-aarch64": {
-      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVTcHorcGlmN1poMm54Tm1MYWMrZTlHRnU2NHEvQU1YTkN1OFFQN0FGOE5FQms1ZWkySjdRZ0IwS1dmeG16OHZTSzVaS2dOOXlNNkJ5eHJyZlJwU1FPUUZDRkhtZmh6OXdRPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzg4Mjk0MzMxCWZpbGU6T3JjYVNoZWV0c19hcm02NC5hcHAudGFyLmd6CmYzMGRobVVBcUJtQzQ5cm9qRzJmVnNiWHBTdVMwVzVXdnNOR1hLQk5xNS9sM3ByRTNhOUJldXJsT0NiTG9jODZWS29NWDd3ajlVaDNUYjFZQitrc0F3PT0K",
+      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVTcHorcGlmN1poMmtwYitMdGk5R3FnSFFLYkw0ck9SVUM4V3RJNzY2eFNaT2lWUVNPNVFCcUlEOThvQXBqVVo2OFVuMnhBdzRscVlyRnI5UjhpWDlNWnBJcVVxQ2kyVmc0PQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzg5MDcwODcwCWZpbGU6T3JjYVNoZWV0c19hcm02NC5hcHAudGFyLmd6Ck5pWEFDdkRXQ3JtdkpMSXVMOTBpNjUzTjFrbDcxSWlmQWlCYVhvSkpEdDhXV1hUZ0M3MUVyQjZSZDkwZnY3bzZQZDFXSGlCL2d0S1lOWlEzN2J5VkJ3PT0K",
       "url": "https://github.com/dataorchestration/homebrew-orcasheets/releases/download/latest/OrcaSheets_arm64.app.tar.gz"
     },
     "linux-x86_64": {
-      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVTcHorcGlmN1poMmhxdnNJWDlZdUduUFBRQjVOQTZlb29pRTZ2TjR6M0EwTk5RbUs3Umg0cWpPN21ZeEczUWdiVlhJM1J0Z0NBeEgxRFlWcSsrZWhaM21uOVBwaEt1YndBPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzg4Mjk0MDE0CWZpbGU6T3JjYVNoZWV0c18yNi45LjFfYW1kNjQuQXBwSW1hZ2UKL1lOQUlPdGlFeWVyc1pOaDJmMitlWU1haGNWeG1GL2ZkaWh0ZjUwQkhZbGVZYVVIcGl6WmpkeUtnelhuUk9RUndzdEhCaUFkdkt3ME84c1hhMDNaQlE9PQo=",
+      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVTcHorcGlmN1poMmg3NDdpS3pMTEtGVDNjUzBaQm5pQk1ZdFh4NnBxS1ROblF6NElaUSszRlU5YmI0bXpDMElBRlFsNFV0NEhpN0xuUXBWZWlta1dsdTUrN01uQ2hvT0FNPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzg5MDcxNjc5CWZpbGU6T3JjYVNoZWV0c18yNi45LjJfYW1kNjQuQXBwSW1hZ2UKN0EyZHlaZXU0Q1VJZ2ZPMlJ1cUZ4M0dXRnJ4cFdydGdRNzRzM0RDa3NWRmVwNlIxc2U4VG1BeE9QSHQyc2FNbkhDTTM1WldMeWs3SUdjdmpyWE9tREE9PQo=",
       "url": "https://github.com/dataorchestration/homebrew-orcasheets/releases/download/latest/orcasheets_latest_amd64.AppImage"
     },
     "windows-x86_64": {
-      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVTcHorcGlmN1poMnQwUC9HWnVMcVYwNnR1UWZlb0pSVVkzN1VEbGlCK0pYSExMWjJCOFJHNkhqRThOQ3lta3dDcmFrVUd3VCtNL1VSTlBUSXdIUmdTRDFFVjlGblZ6V3dvPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzg4Mjk1MzMwCWZpbGU6T3JjYVNoZWV0c18yNi45LjFfeDY0X2VuLVVTLm1zaS56aXAKZnV1QWpZYnEzZWpINWkxOWx2Z21oYkdHMUFpZWVVMVhGUkEwVWdCaGYxeEFubUE2L0daOCtxQW5OTEN5c2t1T01BT1NhYzY4M21BcWI1ZGhPZWw4Qnc9PQo=",
+      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVTcHorcGlmN1poMm5RTnpPcmdxTGtIalZyWU5qck5sK0FETUF5K3JlYUpFcXFmY3d6R0M1Y0FXNWJ3dFEzcENXUWVTeXJnRWRVaDM0VmVONkFHdDNxU0RFSEM2bzRGcFFBPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzg5MDc1NzY4CWZpbGU6T3JjYVNoZWV0c18yNi45LjJfeDY0X2VuLVVTLm1zaS56aXAKVWp2NmgwZlp1cy9LclE3dHE4cTJaeDNFQ0FMZ1V2NTBNQU1zWEZXaDhJcGpoWnl2ZjZIaklWbWFtRjd5OGU5Mm1yUy9NbXFKOGJGQjJBUTJURzg3RGc9PQo=",
       "url": "https://windows-builds.orcasheets.io/latest/orcasheets_latest_x64-setup.msi.zip"
     }
   }

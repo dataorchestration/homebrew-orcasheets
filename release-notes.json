@@ -1,5 +1,27 @@
 [
   {
+    "version": "26.9.2",
+    "date": "September 11, 2026",
+    "sections": [
+      {
+        "title": "What's New",
+        "items": [
+          "Column Management: Rename columns and reorder them however you like — full control over how your data is structured and displayed.",
+          "Background Process Indicator: Active background processes now show in the footer, so you always know when something is running.",
+          "Project Preview: See what's inside a project before opening it. The project selection screen now shows a preview of the project's contents."
+        ]
+      },
+      {
+        "title": "Fixes",
+        "items": [
+          "Device Health Check Fix: Added device-level diagnostics to the initialization flow, making it easier to troubleshoot login and authentication issues.",
+          "S3 Sync Fixes: Column statistics are now properly stored for S3-synced data, and synced files correctly appear as tabs in the sidebar instead of being silently skipped.",
+          "Google Sheets Tab Recovery: If a pinned Google Sheet gets renamed at the source, OrcaSheets now recovers the tab automatically instead of losing track of it."
+        ]
+      }
+    ]
+  },
+  {
     "version": "26.9.1",
     "date": "September 2, 2026",
     "sections": [
