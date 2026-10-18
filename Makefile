@@ -2,6 +2,7 @@ SHELL := /bin/bash
 CURRENT_DATE := $(shell date +%Y-%m-%d)
 SHA_FILE := .sha256_sums
 VERSION_FILE := .version
+NOTES_DIR := release-notes
 
 .PHONY: all prompt_version download_files calculate_checksums update_cask create_release upload_files update_latest update_metadata update_release_notes update_github clean build
 
@@ -75,11 +76,13 @@ update_latest: upload_files
 update_metadata: update_latest
 	@echo "Updating metadata file..."
 	@source $(VERSION_FILE); \
-	read -rp "Enter release notes (press Enter for default): " NOTES; \
-	if [ -z "$$NOTES" ]; then \
-		NOTES="Release version $$VERSION"; \
+	NOTES_FILE="$(NOTES_DIR)/$$VERSION.txt"; \
+	if [ -s "$$NOTES_FILE" ]; then \
+		echo "Using release notes from $$NOTES_FILE"; \
+		NOTES=$$(cat "$$NOTES_FILE"); \
 	else \
-		NOTES=$$(printf '%b' "$$NOTES"); \
+		echo "No $$NOTES_FILE found, using default release notes"; \
+		NOTES="Release version $$VERSION"; \
 	fi; \
 	PUB_DATE=$$(date -u +"%Y-%m-%dT%H:%M:%S.000Z"); \
 	echo "Reading signature files..."; \
@@ -117,23 +120,24 @@ update_release_notes: update_metadata
 	@echo "Updating release-notes.json..."
 	@source $(VERSION_FILE); \
 	RELEASE_DATE=$$(date +"%B %-d, %Y"); \
-	echo "Enter release notes JSON sections array (e.g., [{\"title\":\"What's New\",\"items\":[\"Feature 1\"]}]):"; \
-	read -r SECTIONS_JSON; \
-	if [ -n "$$SECTIONS_JSON" ]; then \
+	SECTIONS_FILE="$(NOTES_DIR)/$$VERSION.json"; \
+	if [ -s "$$SECTIONS_FILE" ]; then \
+		echo "Using release notes sections from $$SECTIONS_FILE"; \
+		jq -e 'type == "array"' "$$SECTIONS_FILE" > /dev/null || { echo "ERROR: $$SECTIONS_FILE must be a JSON array of sections"; exit 1; }; \
 		jq --arg version "$$VERSION" \
 		   --arg date "$$RELEASE_DATE" \
-		   --argjson sections "$$SECTIONS_JSON" \
-		   '[{"version": $$version, "date": $$date, "sections": $$sections}] + .' \
+		   --slurpfile sections "$$SECTIONS_FILE" \
+		   '[{"version": $$version, "date": $$date, "sections": $$sections[0]}] + .' \
 		   release-notes.json > release-notes.json.tmp && mv release-notes.json.tmp release-notes.json; \
 		echo "release-notes.json updated successfully"; \
 	else \
-		echo "No sections provided, skipping release-notes.json update"; \
+		echo "No $$SECTIONS_FILE found, skipping release-notes.json update"; \
 	fi
 
 update_github: update_release_notes
 	@echo "Updating GitHub..."
 	@source $(VERSION_FILE); \
-	git add Casks/orcasheets.rb updated-metadata.json release-notes.json; \
+	git add Casks/orcasheets.rb updated-metadata.json release-notes.json $(NOTES_DIR); \
 	git commit -m "Update OrcaSheets Cask file and metadata for version $$VERSION"; \
 	git push
 
