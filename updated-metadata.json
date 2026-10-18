@@ -8,7 +8,7 @@
       "url": "https://github.com/dataorchestration/homebrew-orcasheets/releases/download/latest/OrcaSheets_x86_64.app.tar.gz"
     },
     "darwin-aarch64": {
-      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVTcHorcGlmN1poMmptOFhxRkZhMWtnYWlXZnR3ZEZpVWcybFU2ZkJvTjE0MFgvMUkxcElKWG1VWHpCaEdReGw0aGNtbFdiS2xRZlYvNVNHWjlpWUQvd2k1TGlZSGJLclFFPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzkyMzU0NzAyCWZpbGU6T3JjYVNoZWV0c19hcm02NC5hcHAudGFyLmd6CmNEZG52SWJNWU85bFN5SXl1a29TcytlRUh0ZVNxUHhZV1B6ZGVwQVRVS0xZQ1h1ZCswR0pBa3VuVy9MMU5YZkxWWCthb1BLMTZLTnRjRVFPekNSUEN3PT0K",
+      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVTcHorcGlmN1poMnFqcGV5Zm4zN2tDSlVrZXpMSU1YQ1ZVSjcwMjlsSzkvdW55aHhjbTJLTlZnTTlsTGRheFp5Y1FMNFNuS0dFVlNMdEt3ZFhjM1JKbFl6c0daOUdkcVFZPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzkyMzU2MjAwCWZpbGU6T3JjYVNoZWV0c19hcm02NC5hcHAudGFyLmd6CmZtakc3YlB4em5XU05iYkFPOVErZE9VcjNHVmZPOVlpa3RjRVlFWCtJS2hrQzdxVjhEb2VRaTNlcTF5MncrYmtaQTFKWVhQU2lWZ1lYNXJCUzc4ekR3PT0K",
       "url": "https://github.com/dataorchestration/homebrew-orcasheets/releases/download/latest/OrcaSheets_arm64.app.tar.gz"
     },
     "linux-x86_64": {
