@@ -10,7 +10,28 @@ Create the files for the version **before** running `make build`. Both are optio
 
 ## `<VERSION>.txt`
 
-Plain text. Newlines are kept as-is (no `\n` escaping needed).
+Plain text, exactly as it should appear to the user. Do **not** wrap it in quotes and do
+**not** write `\n` — press Enter for line breaks. The file is read verbatim and jq handles
+the JSON escaping.
+
+Convention used so far: two blank lines at the top, then one paragraph per feature with a
+leading space, separated by a blank line.
+
+```text
+
+
+ Feature Name: One or two sentences describing it.
+
+ Another Feature: Description here.
+
+ Fixes: Fix one. Fix two.
+```
+
+If you already have notes in the old quoted `"...\n\n..."` form, convert them with:
+
+```bash
+jq -r . release-notes/<VERSION>.txt > tmp && mv tmp release-notes/<VERSION>.txt
+```
 
 ## `<VERSION>.json`
 
