@@ -4,7 +4,7 @@
   "pub_date": "2026-10-18T20:04:25.000Z",
   "platforms": {
     "darwin-x86_64": {
-      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVTcHorcGlmN1poMnRHbmFBQXUxQ1NXamFCRmNZQ3BETTdpNWhFeHF2bDQ3MHJZRGlvOStDYlRpR1hENVlIbDc4eUhkaksrZHBkNUg0UmVjQk9mREN0NGJpT2RYQlNnakFrPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzkyMzQ4MzYyCWZpbGU6T3JjYVNoZWV0c194ODZfNjQuYXBwLnRhci5negpnTGJUYi9LK0dYMlJpOWZ1Y2Y4dGxGUGRMekE3TytnblUwRzg0M1dqR3B2RVdxKzFCMllVNWdtVU9TNXBMQ00weVNBTFFQT1pPZ0d6MzdFVStxclBCQT09Cg==",
+      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVTcHorcGlmN1poMnBTK0Qxc1g1WEZwSDlaN0duMWt6aXVPMnVwVTF4TG1ySWx5UzREWkQ3TWN2eWxORitQWTNlTTAwSkpUOUgzbTdNNjIrR2tRVTkxR29BTjlrVXBDVkFVPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzkyMzU2Nzc4CWZpbGU6T3JjYVNoZWV0c194ODZfNjQuYXBwLnRhci5negpJTUErSGIyeUg2end3RGlPSExEM0IxR3B0Znc2MEltV3NNMzVyR3ZCOUxVMDlDSC8yYkFaNGtYVVZLSllEOU1hcWJXV2FxNjZIbGZkWTJBM0VUUUNEZz09Cg==",
       "url": "https://github.com/dataorchestration/homebrew-orcasheets/releases/download/latest/OrcaSheets_x86_64.app.tar.gz"
     },
     "darwin-aarch64": {
