@@ -1,0 +1,13 @@
+
+
+ System Health Check & Troubleshooting: OrcaSheets now runs a complete health check of your system on the troubleshoot screen — verifying all required permissions and access. If anything is restricted, you'll see exactly what's missing along with a guide your IT team can follow to enable it. This also fixes sign-in and onboarding failures caused by insufficient permissions, including a crash on Windows when permissions weren't met.
+
+ Token Details: You can now see more details about your authentication token, including the owner email and device ID — helpful for debugging and multi-device setups.
+
+ Connections Revamp: The connections experience has been redesigned — a refreshed UI for browsing and adding connections, plus better visibility into sync status. You can now see when each connection was last synced and get a smoother syncing experience with detailed sync history.
+
+ SAP ODBC Connector: A new ODBC connector for SAP is now available.
+
+ Recipe Flowchart Redesign: The recipe steps flowchart has been redesigned for a cleaner, more readable view of your recipe structure.
+
+ Connector Fixes: Column names in MSSQL, ClickHouse, and Snowflake are now sanitized properly in Parquet output. Large SQL syncs that were producing corrupted data are fixed. Redshift connector sync performance has been optimized.
