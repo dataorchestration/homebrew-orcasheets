@@ -1,0 +1,13 @@
+
+
+ Faster Sheets and Analyses: OrcaSheets now remembers the results of recent queries and reuses them. Switching between tabs, scrolling back to rows you have already seen, and asking the same question again no longer re-read your data, so large datasets open and respond much faster — especially on Windows.
+
+ Smoother Analysis Tabs: Analysis results now load page by page, just like sheets. You can see the total row count, sort any column, and scroll through very large results without slowing the app down. Raising the row limit in a query no longer makes OrcaSheets crawl.
+
+ See What Is Running: A live timer in the sheet footer shows how long the current query has been running, and a "Running query" indicator in the status bar keeps you informed even after you switch to another tab.
+
+ Full Results When You Create a Sheet or Download: Creating a sheet from an analysis, or downloading it as CSV, now includes all rows by default instead of stopping at 10,000. A quick confirmation lets you keep the limit if you prefer.
+
+ Troubleshoot Screen: The Troubleshoot screen now shows how much of your recent work is being served instantly from memory, with a button to clear it.
+
+ Fixes: AI answers failing with an "Invalid JSON" error on sheets with certain numeric columns are fixed. Saving project settings, such as grid colours and number or date formats, failed for some users after an earlier update — fixed. Analyses that return no rows showed a row-count error — fixed. Switching tabs quickly could briefly show another tab's rows — fixed. The app icon now displays correctly at every size on Windows and meets the macOS App Store sizing rules. Errors across the app are now reported more completely so support can resolve issues faster.
